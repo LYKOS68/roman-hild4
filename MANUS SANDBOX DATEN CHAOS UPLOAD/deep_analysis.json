@@ -1,0 +1,521 @@
+{
+  "analysis_type": "DEEP_CORE_EXTRACTION",
+  "timestamp": "2026-03-20T17:46:32.577820+00:00",
+  "summary": {
+    "total_files": 223,
+    "core": 31,
+    "boilerplate": 6,
+    "support": 186,
+    "python_scripts": 13,
+    "entry_points": [
+      "flow_detection.py",
+      "deep_analysis_script.py",
+      "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "skills/universal-template-generator/scripts/validate_template.py",
+      "skills/universal-template-generator/scripts/fill_template.py",
+      "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "skills/skill-creator/scripts/init_skill.py",
+      "skills/skill-creator/scripts/quick_validate.py",
+      "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "skills/prompt-engineering-system/scripts/generate_prompt.py"
+    ]
+  },
+  "core_files": [
+    {
+      "path": "soul.md",
+      "category": "PROTOCOL",
+      "reason": "Kern-Protokoll des Systems",
+      "size_bytes": 4773
+    },
+    {
+      "path": "universales_operationsprotokoll.md",
+      "category": "PROTOCOL",
+      "reason": "Kern-Protokoll des Systems",
+      "size_bytes": 2786
+    },
+    {
+      "path": "interaktionsprotokoll.md",
+      "category": "PROTOCOL",
+      "reason": "Kern-Protokoll des Systems",
+      "size_bytes": 2993
+    },
+    {
+      "path": "prompt-orchester.md",
+      "category": "PROTOCOL",
+      "reason": "Kern-Protokoll des Systems",
+      "size_bytes": 30847
+    },
+    {
+      "path": "inventory.json",
+      "category": "ANALYSIS_DATA",
+      "reason": "Analyse-Ergebnis der Prompt-Kette",
+      "size_bytes": 12073
+    },
+    {
+      "path": "classify_score.py",
+      "category": "SCRIPT",
+      "reason": "Ausfuehrbares Analyse-Skript",
+      "size_bytes": 6231
+    },
+    {
+      "path": "classified_inventory.json",
+      "category": "ANALYSIS_DATA",
+      "reason": "Analyse-Ergebnis der Prompt-Kette",
+      "size_bytes": 21506
+    },
+    {
+      "path": "flow_detection.py",
+      "category": "SCRIPT",
+      "reason": "Ausfuehrbares Analyse-Skript",
+      "size_bytes": 9403
+    },
+    {
+      "path": "flow_analysis.json",
+      "category": "ANALYSIS_DATA",
+      "reason": "Analyse-Ergebnis der Prompt-Kette",
+      "size_bytes": 22235
+    },
+    {
+      "path": "action_orchestrator.py",
+      "category": "SCRIPT",
+      "reason": "Ausfuehrbares Analyse-Skript",
+      "size_bytes": 9650
+    },
+    {
+      "path": "action_plan.json",
+      "category": "ANALYSIS_DATA",
+      "reason": "Analyse-Ergebnis der Prompt-Kette",
+      "size_bytes": 13211
+    },
+    {
+      "path": "ORCHESTRA.md",
+      "category": "PROTOCOL",
+      "reason": "Kern-Protokoll des Systems",
+      "size_bytes": 31145
+    },
+    {
+      "path": "inventory_v2.json",
+      "category": "ANALYSIS_DATA",
+      "reason": "Analyse-Ergebnis der Prompt-Kette",
+      "size_bytes": 16273
+    },
+    {
+      "path": "deep_analysis_script.py",
+      "category": "SCRIPT",
+      "reason": "Ausfuehrbares Analyse-Skript",
+      "size_bytes": 8290
+    },
+    {
+      "path": "skills/gws-best-practices/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 3541
+    },
+    {
+      "path": "skills/prompt-calibration-triggering/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 20798
+    },
+    {
+      "path": "skills/mapping-analysis-templates/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 5415
+    },
+    {
+      "path": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 16505
+    },
+    {
+      "path": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 11521
+    },
+    {
+      "path": "skills/universal-template-generator/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 8416
+    },
+    {
+      "path": "skills/universal-template-generator/scripts/validate_template.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 4325
+    },
+    {
+      "path": "skills/universal-template-generator/scripts/fill_template.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 2627
+    },
+    {
+      "path": "skills/internet-skill-finder/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 1746
+    },
+    {
+      "path": "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 15538
+    },
+    {
+      "path": "skills/skill-creator/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 10326
+    },
+    {
+      "path": "skills/skill-creator/scripts/init_skill.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 10763
+    },
+    {
+      "path": "skills/skill-creator/scripts/quick_validate.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 4749
+    },
+    {
+      "path": "skills/zti-delta-algorithm/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 3858
+    },
+    {
+      "path": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 2700
+    },
+    {
+      "path": "skills/prompt-engineering-system/SKILL.md",
+      "category": "SKILL_DEF",
+      "reason": "Fertigkeits-Definition",
+      "size_bytes": 4669
+    },
+    {
+      "path": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+      "category": "SKILL_SCRIPT",
+      "reason": "Fertigkeits-Skript",
+      "size_bytes": 1730
+    }
+  ],
+  "boilerplate_files": [
+    {
+      "path": "skills/mapping-analysis-templates/references/analysis_prompts.md",
+      "category": "TEMPLATE",
+      "reason": "Wiederverwendbare Vorlage",
+      "size_bytes": 15060
+    },
+    {
+      "path": "skills/mapping-analysis-templates/references/best_practices.md",
+      "category": "TEMPLATE",
+      "reason": "Wiederverwendbare Vorlage",
+      "size_bytes": 10203
+    },
+    {
+      "path": "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+      "category": "TEMPLATE",
+      "reason": "Wiederverwendbare Vorlage",
+      "size_bytes": 2360
+    },
+    {
+      "path": "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+      "category": "TEMPLATE",
+      "reason": "Wiederverwendbare Vorlage",
+      "size_bytes": 3937
+    },
+    {
+      "path": "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+      "category": "TEMPLATE",
+      "reason": "Wiederverwendbare Vorlage",
+      "size_bytes": 7981
+    },
+    {
+      "path": "skills/zti-delta-algorithm/templates/delta_block_template.yaml",
+      "category": "TEMPLATE",
+      "reason": "Wiederverwendbare Vorlage",
+      "size_bytes": 131
+    }
+  ],
+  "dependency_matrix": {
+    "classify_score.py": {
+      "internal": [],
+      "external": [
+        "datetime",
+        "json,"
+      ],
+      "has_main": false,
+      "reads_files": true,
+      "writes_files": true
+    },
+    "flow_detection.py": {
+      "internal": [],
+      "external": [
+        "datetime",
+        "json,"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": true
+    },
+    "action_orchestrator.py": {
+      "internal": [],
+      "external": [
+        "datetime",
+        "json,"
+      ],
+      "has_main": false,
+      "reads_files": true,
+      "writes_files": true
+    },
+    "deep_analysis_script.py": {
+      "internal": [],
+      "external": [
+        "os,"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": true
+    },
+    "skills/mapping-analysis-templates/scripts/generate_schema.py": {
+      "internal": [],
+      "external": [
+        "json",
+        "sys",
+        "typing"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": true
+    },
+    "skills/mapping-analysis-templates/scripts/validate_mapping.py": {
+      "internal": [],
+      "external": [
+        "json",
+        "sys",
+        "typing"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": false
+    },
+    "skills/universal-template-generator/scripts/validate_template.py": {
+      "internal": [],
+      "external": [
+        "re",
+        "sys",
+        "pathlib",
+        "yaml"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": false
+    },
+    "skills/universal-template-generator/scripts/fill_template.py": {
+      "internal": [],
+      "external": [
+        "re",
+        "sys",
+        "pathlib"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": true
+    },
+    "skills/internet-skill-finder/scripts/fetch_skills.py": {
+      "internal": [],
+      "external": [
+        "json",
+        "re",
+        "sys",
+        "subprocess",
+        "pathlib",
+        "urllib",
+        "os",
+        "base64"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": true
+    },
+    "skills/skill-creator/scripts/init_skill.py": {
+      "internal": [],
+      "external": [
+        "sys",
+        "pathlib"
+      ],
+      "has_main": true,
+      "reads_files": false,
+      "writes_files": false
+    },
+    "skills/skill-creator/scripts/quick_validate.py": {
+      "internal": [],
+      "external": [
+        "re",
+        "sys",
+        "pathlib",
+        "yaml"
+      ],
+      "has_main": true,
+      "reads_files": false,
+      "writes_files": false
+    },
+    "skills/zti-delta-algorithm/scripts/validate_delta.py": {
+      "internal": [],
+      "external": [
+        "typing",
+        "sys",
+        "argparse",
+        "yaml"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": false
+    },
+    "skills/prompt-engineering-system/scripts/generate_prompt.py": {
+      "internal": [],
+      "external": [
+        "json",
+        "argparse"
+      ],
+      "has_main": true,
+      "reads_files": true,
+      "writes_files": false
+    }
+  },
+  "data_flow": [
+    {
+      "source": "soul.md",
+      "target": "ALL",
+      "type": "CONFIGURES",
+      "desc": "Master-Preset, definiert Kommunikationsstil und Regeln"
+    },
+    {
+      "source": "universales_operationsprotokoll.md",
+      "target": "ALL",
+      "type": "GOVERNS",
+      "desc": "UOP-Gate, keine Operation ohne Bestaetigung"
+    },
+    {
+      "source": "interaktionsprotokoll.md",
+      "target": "ALL",
+      "type": "GOVERNS",
+      "desc": "3+1 Ebenen mit 6R-Check"
+    },
+    {
+      "source": "ORCHESTRA.md",
+      "target": "ALL",
+      "type": "ORCHESTRATES",
+      "desc": "Rollentrennung, Aufgabenzuordnung, Kommunikation"
+    },
+    {
+      "source": "inventory.json",
+      "target": "classify_score.py",
+      "type": "FEEDS",
+      "desc": "Inventar wird klassifiziert"
+    },
+    {
+      "source": "classify_score.py",
+      "target": "classified_inventory.json",
+      "type": "PRODUCES",
+      "desc": "Erzeugt Klassifizierung"
+    },
+    {
+      "source": "classified_inventory.json",
+      "target": "flow_detection.py",
+      "type": "FEEDS",
+      "desc": "Klassifizierung wird analysiert"
+    },
+    {
+      "source": "flow_detection.py",
+      "target": "flow_analysis.json",
+      "type": "PRODUCES",
+      "desc": "Erzeugt Signalfluss-Analyse"
+    },
+    {
+      "source": "flow_analysis.json",
+      "target": "action_orchestrator.py",
+      "type": "FEEDS",
+      "desc": "Signalfluss wird in Aktionsplan umgesetzt"
+    },
+    {
+      "source": "action_orchestrator.py",
+      "target": "action_plan.json",
+      "type": "PRODUCES",
+      "desc": "Erzeugt Aktionsplan"
+    }
+  ],
+  "primary_data_flow_chain": "inventory.json -> classify_score.py -> classified_inventory.json -> flow_detection.py -> flow_analysis.json -> action_orchestrator.py -> action_plan.json",
+  "minimal_core_mechanisms": {
+    "protocols": [
+      "soul.md",
+      "universales_operationsprotokoll.md",
+      "interaktionsprotokoll.md",
+      "prompt-orchester.md",
+      "ORCHESTRA.md"
+    ],
+    "analysis_chain": {
+      "scripts": [
+        "classify_score.py",
+        "flow_detection.py",
+        "action_orchestrator.py",
+        "deep_analysis_script.py"
+      ],
+      "data": [
+        "inventory.json",
+        "classified_inventory.json",
+        "flow_analysis.json",
+        "action_plan.json",
+        "inventory_v2.json"
+      ],
+      "required_libraries": [
+        "os",
+        "json",
+        "datetime",
+        "re"
+      ],
+      "entry_point": "classify_score.py (startet die Analyse-Kette)"
+    },
+    "skills": {
+      "definitions": [
+        "skills/gws-best-practices/SKILL.md",
+        "skills/prompt-calibration-triggering/SKILL.md",
+        "skills/mapping-analysis-templates/SKILL.md",
+        "skills/universal-template-generator/SKILL.md",
+        "skills/internet-skill-finder/SKILL.md",
+        "skills/skill-creator/SKILL.md",
+        "skills/zti-delta-algorithm/SKILL.md",
+        "skills/prompt-engineering-system/SKILL.md"
+      ],
+      "scripts": [
+        "skills/mapping-analysis-templates/scripts/generate_schema.py",
+        "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+        "skills/universal-template-generator/scripts/validate_template.py",
+        "skills/universal-template-generator/scripts/fill_template.py",
+        "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "skills/skill-creator/scripts/init_skill.py",
+        "skills/skill-creator/scripts/quick_validate.py",
+        "skills/zti-delta-algorithm/scripts/validate_delta.py",
+        "skills/prompt-engineering-system/scripts/generate_prompt.py"
+      ]
+    }
+  },
+  "chain_of_thought": [
+    "SCHRITT 1: soul.md ist das Master-Preset - ohne diese Datei verliert das System seine Identitaet und Kommunikationsregeln",
+    "SCHRITT 2: UOP + Interaktionsprotokoll sind die Mixer-Regler - sie steuern WIE interagiert wird (Bestaetigungspflicht, 3+1, 6R)",
+    "SCHRITT 3: ORCHESTRA.md definiert WER was macht - Rollentrennung zwischen Director, Manus, Gemini, Claude, GPT-4o",
+    "SCHRITT 4: Die Analyse-Kette (Inventar -> Klassifizierung -> Signalfluss -> Aktionsplan) ist der operative Signalfluss - die Murmelbahn",
+    "SCHRITT 5: Die 8 Fertigkeiten (Skills) sind die Plugins - sie erweitern die Grundfunktionalitaet",
+    "SCHRITT 6: Ohne die 4 Protokolle + die Analyse-Kette ist das System tot. Alles andere ist Support oder Vorlage."
+  ]
+}

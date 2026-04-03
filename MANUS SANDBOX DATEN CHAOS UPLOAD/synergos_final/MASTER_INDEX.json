@@ -1,0 +1,222 @@
+{
+  "projekt": "Synergos – Personal-GPT-Orchestration",
+  "version": "1.0",
+  "erstellt": "2026-03-22T22:08:45.925265+00:00",
+  "gesamt_artefakte": 23,
+  "sektoren": {
+    "Sektor 1 (P1-P5)": "Grundlogik – Axiome, Regeln, Kern-Prompt",
+    "Sektor 2 (P6-P9)": "Werkzeuge – Pipeline, Validierung, Pattern, Didaktik",
+    "Sektor 3 (P10-P16)": "Integration – RTE, State-Vector, Ethik, Modi",
+    "Sektor 4 (P17-P20)": "Stresstests – Overload, Paralyse, Subjektivität, Antagonismus",
+    "Sektor 5 (P21-P23)": "Konsolidierung – Matrix, Anti-Regression, Integrationstest"
+  },
+  "artefakte": [
+    {
+      "id": "P10",
+      "datei": "p10_synergos_rte.md",
+      "ordner": "01_kern",
+      "sektor": "Sektor 3",
+      "beschreibung": "Resonanz-Engine (RTE)",
+      "groesse_bytes": 29938,
+      "typ": "markdown"
+    },
+    {
+      "id": "P11",
+      "datei": "p11_synergos_statevector.md",
+      "ordner": "04_protokolle",
+      "sektor": "Sektor 3",
+      "beschreibung": "Co-adaptives System / State-Vector",
+      "groesse_bytes": 31402,
+      "typ": "markdown"
+    },
+    {
+      "id": "P12",
+      "datei": "p12_synergos_befaehigung.md",
+      "ordner": "04_protokolle",
+      "sektor": "Sektor 3",
+      "beschreibung": "Meta-Programmierer-Befähigung (3 Stufen)",
+      "groesse_bytes": 9656,
+      "typ": "markdown"
+    },
+    {
+      "id": "P13",
+      "datei": "p13_synergos_ephemeralitaet.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 3",
+      "beschreibung": "Ephemeralitäts-Protokoll (16 Grenzen)",
+      "groesse_bytes": 39238,
+      "typ": "markdown"
+    },
+    {
+      "id": "P14",
+      "datei": "p14_synergos_knowledgeindex.md",
+      "ordner": "04_protokolle",
+      "sektor": "Sektor 3",
+      "beschreibung": "Knowledge-Index-System",
+      "groesse_bytes": 14136,
+      "typ": "markdown"
+    },
+    {
+      "id": "P15",
+      "datei": "p15_synergos_biasmanagement.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 3",
+      "beschreibung": "Bias-Management (12 Biases)",
+      "groesse_bytes": 18888,
+      "typ": "markdown"
+    },
+    {
+      "id": "P16",
+      "datei": "p16_synergos_nachhaltigkeitsflux.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 3",
+      "beschreibung": "Nachhaltigkeits-Flux (3 Modi)",
+      "groesse_bytes": 21505,
+      "typ": "markdown"
+    },
+    {
+      "id": "P17",
+      "datei": "p17_synergos_overloadtest.md",
+      "ordner": "05_stresstests",
+      "sektor": "Sektor 4",
+      "beschreibung": "Stresstest: Transparenz-Overload",
+      "groesse_bytes": 15844,
+      "typ": "markdown"
+    },
+    {
+      "id": "P18",
+      "datei": "p18_synergos_paralysetest.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 4",
+      "beschreibung": "Stresstest: Reflexions-Paralyse",
+      "groesse_bytes": 31378,
+      "typ": "markdown"
+    },
+    {
+      "id": "P19",
+      "datei": "p19_synergos_subjektivitaetstest.md",
+      "ordner": "05_stresstests",
+      "sektor": "Sektor 4",
+      "beschreibung": "Stresstest: Subjektivitäts-Kollaps",
+      "groesse_bytes": 6738,
+      "typ": "markdown"
+    },
+    {
+      "id": "P1",
+      "datei": "p1_synergos_modellauskunft.md",
+      "ordner": "04_protokolle",
+      "sektor": "Sektor 1",
+      "beschreibung": "Modellauskunft & Identität",
+      "groesse_bytes": 8934,
+      "typ": "markdown"
+    },
+    {
+      "id": "P20",
+      "datei": "p20_synergos_antagonistisch.md",
+      "ordner": "05_stresstests",
+      "sektor": "Sektor 4",
+      "beschreibung": "Stresstest: Antagonistische Simulation",
+      "groesse_bytes": 5383,
+      "typ": "markdown"
+    },
+    {
+      "id": "P21",
+      "datei": "p21_synergos_matrix.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 5",
+      "beschreibung": "Interaktions-Matrix",
+      "groesse_bytes": 10384,
+      "typ": "markdown"
+    },
+    {
+      "id": "P22",
+      "datei": "p22_synergos_antiregression.md",
+      "ordner": "01_kern",
+      "sektor": "Sektor 5",
+      "beschreibung": "Anti-Regressions-Protokoll",
+      "groesse_bytes": 3986,
+      "typ": "markdown"
+    },
+    {
+      "id": "P23",
+      "datei": "p23_synergos_integrationstest.md",
+      "ordner": "05_stresstests",
+      "sektor": "Sektor 5",
+      "beschreibung": "Finaler Integrationstest",
+      "groesse_bytes": 22029,
+      "typ": "markdown"
+    },
+    {
+      "id": "P2",
+      "datei": "p2_synergos_axiome.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 1",
+      "beschreibung": "Design-Axiome (6 Regler)",
+      "groesse_bytes": 5418,
+      "typ": "markdown"
+    },
+    {
+      "id": "P3",
+      "datei": "p3_synergos_strukturtransfer.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 1",
+      "beschreibung": "Struktur-Transfer-Theorie (5 Regeln)",
+      "groesse_bytes": 11062,
+      "typ": "markdown"
+    },
+    {
+      "id": "P4",
+      "datei": "p4_synergos_referenzprompt.md",
+      "ordner": "01_kern",
+      "sektor": "Sektor 1",
+      "beschreibung": "Referenz-Prompt (5-Elemente-Template)",
+      "groesse_bytes": 8423,
+      "typ": "markdown"
+    },
+    {
+      "id": "P5",
+      "datei": "p5_synergos_kernprompt.md",
+      "ordner": "01_kern",
+      "sektor": "Sektor 1",
+      "beschreibung": "Kern-Prompt (Konsolidierung P1-P4)",
+      "groesse_bytes": 6493,
+      "typ": "markdown"
+    },
+    {
+      "id": "P6",
+      "datei": "p6_synergos_pipeline.md",
+      "ordner": "03_pipeline",
+      "sektor": "Sektor 2",
+      "beschreibung": "12-Stufen-Pipeline",
+      "groesse_bytes": 28294,
+      "typ": "markdown"
+    },
+    {
+      "id": "P7",
+      "datei": "p7_synergos_validierung.md",
+      "ordner": "03_pipeline",
+      "sektor": "Sektor 2",
+      "beschreibung": "Dreischicht-Validierungsprotokoll",
+      "groesse_bytes": 25374,
+      "typ": "markdown"
+    },
+    {
+      "id": "P8",
+      "datei": "p8_synergos_pattern.md",
+      "ordner": "02_axiome_regeln",
+      "sektor": "Sektor 2",
+      "beschreibung": "4-Stufen Pattern-Extraktion",
+      "groesse_bytes": 17161,
+      "typ": "markdown"
+    },
+    {
+      "id": "P9",
+      "datei": "p9_synergos_lehrmeister.md",
+      "ordner": "01_kern",
+      "sektor": "Sektor 2",
+      "beschreibung": "Lehrmeister-Modus (Demo-Reflect-Invite)",
+      "groesse_bytes": 10099,
+      "typ": "markdown"
+    }
+  ]
+}

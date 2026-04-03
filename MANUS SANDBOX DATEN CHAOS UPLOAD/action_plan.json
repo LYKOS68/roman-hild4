@@ -1,0 +1,364 @@
+{
+  "actions": [
+    {
+      "filepath": "interaktionsprotokoll.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (1.0). Wurzelverzeichnis-Protokoll/Profil; Markdown-Kerndokument; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "prompt-orchester.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (1.0). Wurzelverzeichnis-Protokoll/Profil; Markdown-Kerndokument; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/gws-best-practices/SKILL.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.9). Fertigkeits-Definition; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/internet-skill-finder/SKILL.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.9). Fertigkeits-Definition; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/internet-skill-finder/references/skills_cache.json",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.9). Kritische Erweiterung: .json; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.8)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.8)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.8)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/prompt-calibration-triggering/SKILL.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.85). Kern-Pfad: lib; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/SKILL.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.9). Fertigkeits-Definition; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_kalibrierungs_generator.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.85). Kern-Pfad: lib; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.9)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/skill-creator/SKILL.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.9). Fertigkeits-Definition; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/init_skill.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.95)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/quick_validate.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.8)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/universal-template-generator/SKILL.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.9). Fertigkeits-Definition; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/fill_template.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.8)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/validate_template.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.8)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/SKILL.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (0.9). Fertigkeits-Definition; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Aktiver Einstiegspunkt (Konfidenz: 0.9)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "soul.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (1.0). Wurzelverzeichnis-Protokoll/Profil; Markdown-Kerndokument; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "universales_operationsprotokoll.md",
+      "action": "KEEP_ESSENTIAL",
+      "priority": 1,
+      "reason": "Kern-Datei mit hohem Score (1.0). Wurzelverzeichnis-Protokoll/Profil; Markdown-Kerndokument; Kürzlich geändert (< 7 Tage)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/SKILL.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/analysis_prompts.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/best_practices.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/meta_kern_prompt.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_pack_system.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/system_integration.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/skill-creator/LICENSE.txt",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Ausgenommen durch Exempt-Pattern",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/skill-creator/references/output-patterns.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/skill-creator/references/progressive-disclosure-patterns.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/skill-creator/references/workflows.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/format_specs.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/template_catalog.md",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/abcd_model.yaml",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/zti_metaphor.yaml",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/templates/delta_block_template.yaml",
+      "action": "KEEP_DEPENDENCY",
+      "priority": 2,
+      "reason": "Wird von Kern-Dateien benötigt (Abhängigkeit)",
+      "verification_required": false,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_480995_8968.txt",
+      "action": "REVIEW",
+      "priority": 4,
+      "reason": "Nicht klassifizierbar – manuelle Prüfung nötig. Nicht eindeutig klassifizierbar; Kürzlich geändert (< 7 Tage)",
+      "verification_required": true,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_687124_8968.txt",
+      "action": "REVIEW",
+      "priority": 4,
+      "reason": "Nicht klassifizierbar – manuelle Prüfung nötig. Nicht eindeutig klassifizierbar; Kürzlich geändert (< 7 Tage)",
+      "verification_required": true,
+      "backup_before_action": false
+    },
+    {
+      "filepath": "sandbox.txt",
+      "action": "DELETE_CANDIDATE",
+      "priority": 5,
+      "reason": "Unter Mindestgröße (19 Bytes), nicht im Signalfluss",
+      "verification_required": true,
+      "backup_before_action": false
+    }
+  ],
+  "summary": {
+    "total_essential": 22,
+    "total_dependencies": 18,
+    "total_archive": 0,
+    "total_review": 2,
+    "total_delete": 1,
+    "total_protected": 0
+  },
+  "archive_plan": {
+    "target_directory": "./archive/",
+    "estimated_size_bytes": 0,
+    "file_count": 0
+  },
+  "protected_paths": [
+    "Keine WORM-Chain oder Manifeste im Workspace erkannt"
+  ]
+}

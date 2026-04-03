@@ -1,0 +1,880 @@
+{
+  "classified_files": [
+    {
+      "filepath": "interaktionsprotokoll.md",
+      "category": "core",
+      "score": 1.0,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Wurzelverzeichnis-Protokoll/Profil",
+        "Markdown-Kerndokument",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "prompt-orchester.md",
+      "category": "core",
+      "score": 1.0,
+      "heuristics": {
+        "path_match": [],
+        "size": "medium",
+        "age_days": 0,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Wurzelverzeichnis-Protokoll/Profil",
+        "Markdown-Kerndokument",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "soul.md",
+      "category": "core",
+      "score": 1.0,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 0,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Wurzelverzeichnis-Protokoll/Profil",
+        "Markdown-Kerndokument",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "universales_operationsprotokoll.md",
+      "category": "core",
+      "score": 1.0,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Wurzelverzeichnis-Protokoll/Profil",
+        "Markdown-Kerndokument",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts"
+        ],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts",
+          "templates",
+          "templates"
+        ],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts",
+          "templates",
+          "templates"
+        ],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/init_skill.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts"
+        ],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/quick_validate.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/fill_template.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/validate_template.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "category": "core",
+      "score": 0.95,
+      "heuristics": {
+        "path_match": [
+          "scripts"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".py",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Ausführbares Skript",
+        "Kern-Pfad: scripts",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/gws-best-practices/SKILL.md",
+      "category": "core",
+      "score": 0.9,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Fertigkeits-Definition",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/internet-skill-finder/SKILL.md",
+      "category": "core",
+      "score": 0.9,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Fertigkeits-Definition",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/internet-skill-finder/references/skills_cache.json",
+      "category": "core",
+      "score": 0.9,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".json",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Kritische Erweiterung: .json",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/SKILL.md",
+      "category": "core",
+      "score": 0.9,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Fertigkeits-Definition",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/SKILL.md",
+      "category": "core",
+      "score": 0.9,
+      "heuristics": {
+        "path_match": [],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Fertigkeits-Definition",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/universal-template-generator/SKILL.md",
+      "category": "core",
+      "score": 0.9,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Fertigkeits-Definition",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/SKILL.md",
+      "category": "core",
+      "score": 0.9,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Fertigkeits-Definition",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-calibration-triggering/SKILL.md",
+      "category": "core",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "lib"
+        ],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Kern-Pfad: lib",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/meta_kern_prompt.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_kalibrierungs_generator.md",
+      "category": "core",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "lib",
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Kern-Pfad: lib",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_pack_system.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/system_integration.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/references/output-patterns.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/references/progressive-disclosure-patterns.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/references/workflows.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/format_specs.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/template_catalog.md",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/abcd_model.yaml",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".yaml",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/zti_metaphor.yaml",
+      "category": "support",
+      "score": 0.85,
+      "heuristics": {
+        "path_match": [
+          "references"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".yaml",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Unterstützungs-Pfad: references",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/SKILL.md",
+      "category": "boilerplate",
+      "score": 0.8,
+      "heuristics": {
+        "path_match": [
+          "templates",
+          "templates"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Vorlagen-Verzeichnis: templates",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/analysis_prompts.md",
+      "category": "boilerplate",
+      "score": 0.8,
+      "heuristics": {
+        "path_match": [
+          "references",
+          "templates",
+          "templates"
+        ],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Vorlagen-Verzeichnis: templates",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/best_practices.md",
+      "category": "boilerplate",
+      "score": 0.8,
+      "heuristics": {
+        "path_match": [
+          "references",
+          "templates",
+          "templates"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Vorlagen-Verzeichnis: templates",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+      "category": "boilerplate",
+      "score": 0.8,
+      "heuristics": {
+        "path_match": [
+          "templates",
+          "templates"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Vorlagen-Verzeichnis: templates",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+      "category": "boilerplate",
+      "score": 0.8,
+      "heuristics": {
+        "path_match": [
+          "templates",
+          "templates"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Vorlagen-Verzeichnis: templates",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+      "category": "boilerplate",
+      "score": 0.8,
+      "heuristics": {
+        "path_match": [
+          "templates",
+          "templates"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".md",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Vorlagen-Verzeichnis: templates",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/templates/delta_block_template.yaml",
+      "category": "boilerplate",
+      "score": 0.8,
+      "heuristics": {
+        "path_match": [
+          "templates",
+          "templates"
+        ],
+        "size": "small",
+        "age_days": 5,
+        "extension": ".yaml",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Vorlagen-Verzeichnis: templates",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/LICENSE.txt",
+      "category": "support",
+      "score": 0.7,
+      "heuristics": {
+        "path_match": [],
+        "size": "medium",
+        "age_days": 5,
+        "extension": ".txt",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Lizenzdatei",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "sandbox.txt",
+      "category": "support",
+      "score": 0.6,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 8,
+        "extension": ".txt",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Wurzelverzeichnis-Textdatei"
+      ]
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_480995_8968.txt",
+      "category": "unknown",
+      "score": 0.45,
+      "heuristics": {
+        "path_match": [],
+        "size": "small",
+        "age_days": 0,
+        "extension": ".txt",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Nicht eindeutig klassifizierbar",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_687124_8968.txt",
+      "category": "unknown",
+      "score": 0.45,
+      "heuristics": {
+        "path_match": [],
+        "size": "medium",
+        "age_days": 0,
+        "extension": ".txt",
+        "is_old": false,
+        "is_large": false,
+        "is_temporal": false
+      },
+      "reasons": [
+        "Nicht eindeutig klassifizierbar",
+        "Kürzlich geändert (< 7 Tage)"
+      ]
+    }
+  ],
+  "statistics": {
+    "by_category": {
+      "core": 22,
+      "support": 12,
+      "boilerplate": 7,
+      "unknown": 2
+    },
+    "by_age": {
+      "under_30_days": 43,
+      "30_to_180_days": 0,
+      "over_180_days": 0
+    },
+    "by_size": {
+      "small_under_10kb": 32,
+      "medium_10kb_to_1mb": 11,
+      "large_over_1mb": 0
+    }
+  }
+}

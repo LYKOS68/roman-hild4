@@ -1,0 +1,1800 @@
+{
+  "inventory": [
+    {
+      "filepath": "inventory_scan_v3.py",
+      "size_bytes": 2513,
+      "mtime_iso": "2026-03-20T18:56:59.845486+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "inventory_scan_v3.py"
+    },
+    {
+      "filepath": "soul.md",
+      "size_bytes": 4773,
+      "mtime_iso": "2026-03-20T18:56:47.269123+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "soul.md"
+    },
+    {
+      "filepath": "gemini_sandbox_bridge_analyse.md",
+      "size_bytes": 6521,
+      "mtime_iso": "2026-03-20T18:40:15.047078+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "gemini_sandbox_bridge_analyse.md"
+    },
+    {
+      "filepath": "sandbox_selbstanalyse.md",
+      "size_bytes": 7174,
+      "mtime_iso": "2026-03-20T18:15:56.975514+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "sandbox_selbstanalyse.md"
+    },
+    {
+      "filepath": "manus_technische_infrastruktur.md",
+      "size_bytes": 5568,
+      "mtime_iso": "2026-03-20T18:14:05.582689+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "manus_technische_infrastruktur.md"
+    },
+    {
+      "filepath": "tiefenanalyse_sandbox.md",
+      "size_bytes": 8609,
+      "mtime_iso": "2026-03-20T17:48:53.080066+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "tiefenanalyse_sandbox.md"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-47-24_615742_13959.txt",
+      "size_bytes": 10700,
+      "mtime_iso": "2026-03-20T17:47:24.611185+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-47-24_615742_13959.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-47-24_410488_13959.txt",
+      "size_bytes": 9379,
+      "mtime_iso": "2026-03-20T17:47:24.407183+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-47-24_410488_13959.txt"
+    },
+    {
+      "filepath": "deep_analysis.json",
+      "size_bytes": 14896,
+      "mtime_iso": "2026-03-20T17:46:32.578702+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "deep_analysis.json"
+    },
+    {
+      "filepath": "deep_analysis_script.py",
+      "size_bytes": 8290,
+      "mtime_iso": "2026-03-20T17:46:20.226579+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "deep_analysis_script.py"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-52_89918_12196.txt",
+      "size_bytes": 586669,
+      "mtime_iso": "2026-03-20T17:10:52.088322+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-52_89918_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-51_725134_12196.txt",
+      "size_bytes": 583521,
+      "mtime_iso": "2026-03-20T17:10:51.724318+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-51_725134_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-51_361614_12196.txt",
+      "size_bytes": 579688,
+      "mtime_iso": "2026-03-20T17:10:51.360314+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-51_361614_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-51_10402_12196.txt",
+      "size_bytes": 575842,
+      "mtime_iso": "2026-03-20T17:10:51.008310+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-51_10402_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-50_656024_12196.txt",
+      "size_bytes": 572012,
+      "mtime_iso": "2026-03-20T17:10:50.652305+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-50_656024_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-50_287416_12196.txt",
+      "size_bytes": 568172,
+      "mtime_iso": "2026-03-20T17:10:50.284301+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-50_287416_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-49_928474_12196.txt",
+      "size_bytes": 564376,
+      "mtime_iso": "2026-03-20T17:10:49.928297+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-49_928474_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-49_575997_12196.txt",
+      "size_bytes": 560582,
+      "mtime_iso": "2026-03-20T17:10:49.572293+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-49_575997_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-49_226989_12196.txt",
+      "size_bytes": 556761,
+      "mtime_iso": "2026-03-20T17:10:49.224289+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-49_226989_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-48_882831_12196.txt",
+      "size_bytes": 552922,
+      "mtime_iso": "2026-03-20T17:10:48.880285+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-48_882831_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-48_535048_12196.txt",
+      "size_bytes": 549124,
+      "mtime_iso": "2026-03-20T17:10:48.532281+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-48_535048_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-48_193133_12196.txt",
+      "size_bytes": 545294,
+      "mtime_iso": "2026-03-20T17:10:48.192277+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-48_193133_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-47_843852_12196.txt",
+      "size_bytes": 541474,
+      "mtime_iso": "2026-03-20T17:10:47.840274+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-47_843852_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-47_489577_12196.txt",
+      "size_bytes": 537644,
+      "mtime_iso": "2026-03-20T17:10:47.488270+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-47_489577_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-47_150332_12196.txt",
+      "size_bytes": 533829,
+      "mtime_iso": "2026-03-20T17:10:47.148266+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-47_150332_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-46_812239_12196.txt",
+      "size_bytes": 530002,
+      "mtime_iso": "2026-03-20T17:10:46.812263+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-46_812239_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-46_473447_12196.txt",
+      "size_bytes": 526153,
+      "mtime_iso": "2026-03-20T17:10:46.472260+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-46_473447_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-46_137325_12196.txt",
+      "size_bytes": 522320,
+      "mtime_iso": "2026-03-20T17:10:46.136256+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-46_137325_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-45_803747_12196.txt",
+      "size_bytes": 518474,
+      "mtime_iso": "2026-03-20T17:10:45.800252+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-45_803747_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-45_468291_12196.txt",
+      "size_bytes": 514644,
+      "mtime_iso": "2026-03-20T17:10:45.468249+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-45_468291_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-45_138267_12196.txt",
+      "size_bytes": 510814,
+      "mtime_iso": "2026-03-20T17:10:45.136246+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-45_138267_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-44_805223_12196.txt",
+      "size_bytes": 507023,
+      "mtime_iso": "2026-03-20T17:10:44.804242+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-44_805223_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-44_474293_12196.txt",
+      "size_bytes": 503214,
+      "mtime_iso": "2026-03-20T17:10:44.472239+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-44_474293_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-44_118585_12196.txt",
+      "size_bytes": 499396,
+      "mtime_iso": "2026-03-20T17:10:44.116235+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-44_118585_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-43_779633_12196.txt",
+      "size_bytes": 495554,
+      "mtime_iso": "2026-03-20T17:10:43.776232+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-43_779633_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-43_452867_12196.txt",
+      "size_bytes": 491756,
+      "mtime_iso": "2026-03-20T17:10:43.452228+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-43_452867_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-43_129484_12196.txt",
+      "size_bytes": 487926,
+      "mtime_iso": "2026-03-20T17:10:43.128225+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-43_129484_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-42_798611_12196.txt",
+      "size_bytes": 484106,
+      "mtime_iso": "2026-03-20T17:10:42.796221+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-42_798611_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-42_471861_12196.txt",
+      "size_bytes": 480276,
+      "mtime_iso": "2026-03-20T17:10:42.468218+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-42_471861_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-42_150850_12196.txt",
+      "size_bytes": 476464,
+      "mtime_iso": "2026-03-20T17:10:42.148215+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-42_150850_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-41_827097_12196.txt",
+      "size_bytes": 472634,
+      "mtime_iso": "2026-03-20T17:10:41.824212+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-41_827097_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-41_502515_12196.txt",
+      "size_bytes": 468785,
+      "mtime_iso": "2026-03-20T17:10:41.500208+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-41_502515_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-41_184030_12196.txt",
+      "size_bytes": 464955,
+      "mtime_iso": "2026-03-20T17:10:41.180205+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-41_184030_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-40_854159_12196.txt",
+      "size_bytes": 461115,
+      "mtime_iso": "2026-03-20T17:10:40.852202+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-40_854159_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-40_535894_12196.txt",
+      "size_bytes": 457295,
+      "mtime_iso": "2026-03-20T17:10:40.532198+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-40_535894_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-40_212139_12196.txt",
+      "size_bytes": 453501,
+      "mtime_iso": "2026-03-20T17:10:40.208195+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-40_212139_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-39_898128_12196.txt",
+      "size_bytes": 449695,
+      "mtime_iso": "2026-03-20T17:10:39.896192+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-39_898128_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-39_583096_12196.txt",
+      "size_bytes": 445874,
+      "mtime_iso": "2026-03-20T17:10:39.580189+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-39_583096_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-39_268395_12196.txt",
+      "size_bytes": 442047,
+      "mtime_iso": "2026-03-20T17:10:39.268186+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-39_268395_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-38_957710_12196.txt",
+      "size_bytes": 438228,
+      "mtime_iso": "2026-03-20T17:10:38.956183+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-38_957710_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-38_645983_12196.txt",
+      "size_bytes": 434407,
+      "mtime_iso": "2026-03-20T17:10:38.644180+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-38_645983_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-38_263401_12196.txt",
+      "size_bytes": 430587,
+      "mtime_iso": "2026-03-20T17:10:38.260176+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-38_263401_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-37_946828_12196.txt",
+      "size_bytes": 426763,
+      "mtime_iso": "2026-03-20T17:10:37.944172+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-37_946828_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-37_636015_12196.txt",
+      "size_bytes": 422945,
+      "mtime_iso": "2026-03-20T17:10:37.632169+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-37_636015_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-37_327291_12196.txt",
+      "size_bytes": 419096,
+      "mtime_iso": "2026-03-20T17:10:37.324166+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-37_327291_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-37_17259_12196.txt",
+      "size_bytes": 415266,
+      "mtime_iso": "2026-03-20T17:10:37.016162+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-37_17259_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-36_709083_12196.txt",
+      "size_bytes": 411452,
+      "mtime_iso": "2026-03-20T17:10:36.708159+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-36_709083_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-36_401253_12196.txt",
+      "size_bytes": 407658,
+      "mtime_iso": "2026-03-20T17:10:36.400155+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-36_401253_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-36_91161_12196.txt",
+      "size_bytes": 403845,
+      "mtime_iso": "2026-03-20T17:10:36.088152+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-36_91161_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-35_782001_12196.txt",
+      "size_bytes": 400025,
+      "mtime_iso": "2026-03-20T17:10:35.780148+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-35_782001_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-35_478200_12196.txt",
+      "size_bytes": 396200,
+      "mtime_iso": "2026-03-20T17:10:35.476145+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-35_478200_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-35_176180_12196.txt",
+      "size_bytes": 392382,
+      "mtime_iso": "2026-03-20T17:10:35.172141+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-35_176180_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-34_868964_12196.txt",
+      "size_bytes": 388558,
+      "mtime_iso": "2026-03-20T17:10:34.868138+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-34_868964_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-34_570319_12196.txt",
+      "size_bytes": 384737,
+      "mtime_iso": "2026-03-20T17:10:34.568135+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-34_570319_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-34_270355_12196.txt",
+      "size_bytes": 380910,
+      "mtime_iso": "2026-03-20T17:10:34.268131+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-34_270355_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-33_972270_12196.txt",
+      "size_bytes": 377098,
+      "mtime_iso": "2026-03-20T17:10:33.968128+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-33_972270_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-33_672286_12196.txt",
+      "size_bytes": 373253,
+      "mtime_iso": "2026-03-20T17:10:33.668124+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-33_672286_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-33_362369_12196.txt",
+      "size_bytes": 369451,
+      "mtime_iso": "2026-03-20T17:10:33.360121+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-33_362369_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-33_64162_12196.txt",
+      "size_bytes": 365650,
+      "mtime_iso": "2026-03-20T17:10:33.060118+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-33_64162_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-32_771713_12196.txt",
+      "size_bytes": 361839,
+      "mtime_iso": "2026-03-20T17:10:32.768114+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-32_771713_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-32_473440_12196.txt",
+      "size_bytes": 358005,
+      "mtime_iso": "2026-03-20T17:10:32.472111+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-32_473440_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-32_177348_12196.txt",
+      "size_bytes": 354196,
+      "mtime_iso": "2026-03-20T17:10:32.176108+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-32_177348_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-31_883077_12196.txt",
+      "size_bytes": 350372,
+      "mtime_iso": "2026-03-20T17:10:31.880104+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-31_883077_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-31_589772_12196.txt",
+      "size_bytes": 346548,
+      "mtime_iso": "2026-03-20T17:10:31.588101+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-31_589772_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-31_300768_12196.txt",
+      "size_bytes": 342721,
+      "mtime_iso": "2026-03-20T17:10:31.300098+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-31_300768_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-31_12948_12196.txt",
+      "size_bytes": 338906,
+      "mtime_iso": "2026-03-20T17:10:31.012095+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-31_12948_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-30_729558_12196.txt",
+      "size_bytes": 335076,
+      "mtime_iso": "2026-03-20T17:10:30.728091+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-30_729558_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-30_391569_12196.txt",
+      "size_bytes": 331246,
+      "mtime_iso": "2026-03-20T17:10:30.388088+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-30_391569_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-30_108267_12196.txt",
+      "size_bytes": 327446,
+      "mtime_iso": "2026-03-20T17:10:30.104084+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-30_108267_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-29_826613_12196.txt",
+      "size_bytes": 323646,
+      "mtime_iso": "2026-03-20T17:10:29.824081+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-29_826613_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-29_541735_12196.txt",
+      "size_bytes": 319829,
+      "mtime_iso": "2026-03-20T17:10:29.540078+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-29_541735_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-29_262353_12196.txt",
+      "size_bytes": 315986,
+      "mtime_iso": "2026-03-20T17:10:29.260075+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-29_262353_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-28_979304_12196.txt",
+      "size_bytes": 312188,
+      "mtime_iso": "2026-03-20T17:10:28.976072+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-28_979304_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-28_698135_12196.txt",
+      "size_bytes": 308358,
+      "mtime_iso": "2026-03-20T17:10:28.696069+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-28_698135_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-28_421037_12196.txt",
+      "size_bytes": 304538,
+      "mtime_iso": "2026-03-20T17:10:28.420066+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-28_421037_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-28_145516_12196.txt",
+      "size_bytes": 300708,
+      "mtime_iso": "2026-03-20T17:10:28.144063+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-28_145516_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-27_870611_12196.txt",
+      "size_bytes": 296896,
+      "mtime_iso": "2026-03-20T17:10:27.868059+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-27_870611_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-27_595196_12196.txt",
+      "size_bytes": 293056,
+      "mtime_iso": "2026-03-20T17:10:27.592056+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-27_595196_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-27_322475_12196.txt",
+      "size_bytes": 289251,
+      "mtime_iso": "2026-03-20T17:10:27.320053+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-27_322475_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-27_49309_12196.txt",
+      "size_bytes": 285454,
+      "mtime_iso": "2026-03-20T17:10:27.048050+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-27_49309_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-26_777956_12196.txt",
+      "size_bytes": 281645,
+      "mtime_iso": "2026-03-20T17:10:26.776047+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-26_777956_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-26_507987_12196.txt",
+      "size_bytes": 277815,
+      "mtime_iso": "2026-03-20T17:10:26.504044+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-26_507987_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-26_237364_12196.txt",
+      "size_bytes": 274000,
+      "mtime_iso": "2026-03-20T17:10:26.236041+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-26_237364_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-25_962058_12196.txt",
+      "size_bytes": 270178,
+      "mtime_iso": "2026-03-20T17:10:25.960038+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-25_962058_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-25_694602_12196.txt",
+      "size_bytes": 266358,
+      "mtime_iso": "2026-03-20T17:10:25.692035+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-25_694602_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-25_394152_12196.txt",
+      "size_bytes": 262528,
+      "mtime_iso": "2026-03-20T17:10:25.392031+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-25_394152_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-25_125067_12196.txt",
+      "size_bytes": 258716,
+      "mtime_iso": "2026-03-20T17:10:25.124028+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-25_125067_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-24_856333_12196.txt",
+      "size_bytes": 254886,
+      "mtime_iso": "2026-03-20T17:10:24.852026+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-24_856333_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-24_591945_12196.txt",
+      "size_bytes": 251080,
+      "mtime_iso": "2026-03-20T17:10:24.588022+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-24_591945_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-24_326634_12196.txt",
+      "size_bytes": 247276,
+      "mtime_iso": "2026-03-20T17:10:24.324019+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-24_326634_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-24_63909_12196.txt",
+      "size_bytes": 243456,
+      "mtime_iso": "2026-03-20T17:10:24.060017+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-24_63909_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-23_801485_12196.txt",
+      "size_bytes": 239620,
+      "mtime_iso": "2026-03-20T17:10:23.800014+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-23_801485_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-23_540038_12196.txt",
+      "size_bytes": 235819,
+      "mtime_iso": "2026-03-20T17:10:23.536011+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-23_540038_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-23_281922_12196.txt",
+      "size_bytes": 231989,
+      "mtime_iso": "2026-03-20T17:10:23.280008+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-23_281922_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-23_22620_12196.txt",
+      "size_bytes": 228172,
+      "mtime_iso": "2026-03-20T17:10:23.020005+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-23_22620_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-22_763040_12196.txt",
+      "size_bytes": 224338,
+      "mtime_iso": "2026-03-20T17:10:22.760002+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-22_763040_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-22_504215_12196.txt",
+      "size_bytes": 220526,
+      "mtime_iso": "2026-03-20T17:10:22.499999+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-22_504215_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-22_246130_12196.txt",
+      "size_bytes": 216696,
+      "mtime_iso": "2026-03-20T17:10:22.243996+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-22_246130_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-21_991725_12196.txt",
+      "size_bytes": 212876,
+      "mtime_iso": "2026-03-20T17:10:21.987993+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-21_991725_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-21_738886_12196.txt",
+      "size_bytes": 209040,
+      "mtime_iso": "2026-03-20T17:10:21.735991+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-21_738886_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-21_487140_12196.txt",
+      "size_bytes": 205233,
+      "mtime_iso": "2026-03-20T17:10:21.483988+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-21_487140_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-21_235122_12196.txt",
+      "size_bytes": 201409,
+      "mtime_iso": "2026-03-20T17:10:21.231985+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-21_235122_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-20_980881_12196.txt",
+      "size_bytes": 197582,
+      "mtime_iso": "2026-03-20T17:10:20.979982+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-20_980881_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-20_724416_12196.txt",
+      "size_bytes": 193758,
+      "mtime_iso": "2026-03-20T17:10:20.723979+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-20_724416_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-20_473806_12196.txt",
+      "size_bytes": 189937,
+      "mtime_iso": "2026-03-20T17:10:20.471976+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-20_473806_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-20_224550_12196.txt",
+      "size_bytes": 186110,
+      "mtime_iso": "2026-03-20T17:10:20.223974+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-20_224550_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-19_977169_12196.txt",
+      "size_bytes": 182258,
+      "mtime_iso": "2026-03-20T17:10:19.975971+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-19_977169_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-19_730903_12196.txt",
+      "size_bytes": 178460,
+      "mtime_iso": "2026-03-20T17:10:19.727968+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-19_730903_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-19_484478_12196.txt",
+      "size_bytes": 174637,
+      "mtime_iso": "2026-03-20T17:10:19.483965+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-19_484478_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-19_231426_12196.txt",
+      "size_bytes": 170819,
+      "mtime_iso": "2026-03-20T17:10:19.227962+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-19_231426_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-18_987334_12196.txt",
+      "size_bytes": 166980,
+      "mtime_iso": "2026-03-20T17:10:18.983959+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-18_987334_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-18_742034_12196.txt",
+      "size_bytes": 163168,
+      "mtime_iso": "2026-03-20T17:10:18.739957+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-18_742034_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-18_500828_12196.txt",
+      "size_bytes": 159338,
+      "mtime_iso": "2026-03-20T17:10:18.499954+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-18_500828_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-18_258115_12196.txt",
+      "size_bytes": 155531,
+      "mtime_iso": "2026-03-20T17:10:18.255951+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-18_258115_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-18_9087_12196.txt",
+      "size_bytes": 151701,
+      "mtime_iso": "2026-03-20T17:10:18.007948+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-18_9087_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-17_769205_12196.txt",
+      "size_bytes": 147884,
+      "mtime_iso": "2026-03-20T17:10:17.767946+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-17_769205_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-17_530159_12196.txt",
+      "size_bytes": 144054,
+      "mtime_iso": "2026-03-20T17:10:17.527943+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-17_530159_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-17_291937_12196.txt",
+      "size_bytes": 140238,
+      "mtime_iso": "2026-03-20T17:10:17.287940+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-17_291937_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-17_53694_12196.txt",
+      "size_bytes": 136408,
+      "mtime_iso": "2026-03-20T17:10:17.051937+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-17_53694_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-16_817981_12196.txt",
+      "size_bytes": 132605,
+      "mtime_iso": "2026-03-20T17:10:16.815935+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-16_817981_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-16_583785_12196.txt",
+      "size_bytes": 128781,
+      "mtime_iso": "2026-03-20T17:10:16.579932+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-16_583785_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-16_349588_12196.txt",
+      "size_bytes": 124960,
+      "mtime_iso": "2026-03-20T17:10:16.347929+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-16_349588_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-16_111730_12196.txt",
+      "size_bytes": 121121,
+      "mtime_iso": "2026-03-20T17:10:16.107927+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-16_111730_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-15_872748_12196.txt",
+      "size_bytes": 117309,
+      "mtime_iso": "2026-03-20T17:10:15.871924+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-15_872748_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-15_612702_12196.txt",
+      "size_bytes": 113479,
+      "mtime_iso": "2026-03-20T17:10:15.611921+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-15_612702_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-15_383777_12196.txt",
+      "size_bytes": 109649,
+      "mtime_iso": "2026-03-20T17:10:15.379918+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-15_383777_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-15_154490_12196.txt",
+      "size_bytes": 105828,
+      "mtime_iso": "2026-03-20T17:10:15.151916+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-15_154490_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-14_923753_12196.txt",
+      "size_bytes": 102002,
+      "mtime_iso": "2026-03-20T17:10:14.919913+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-14_923753_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-14_697098_12196.txt",
+      "size_bytes": 98185,
+      "mtime_iso": "2026-03-20T17:10:14.695911+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-14_697098_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-14_471249_12196.txt",
+      "size_bytes": 94359,
+      "mtime_iso": "2026-03-20T17:10:14.467908+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-14_471249_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-14_246055_12196.txt",
+      "size_bytes": 90525,
+      "mtime_iso": "2026-03-20T17:10:14.243906+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-14_246055_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-14_22252_12196.txt",
+      "size_bytes": 86702,
+      "mtime_iso": "2026-03-20T17:10:14.019903+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-14_22252_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-13_796440_12196.txt",
+      "size_bytes": 82875,
+      "mtime_iso": "2026-03-20T17:10:13.795900+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-13_796440_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-13_575435_12196.txt",
+      "size_bytes": 79057,
+      "mtime_iso": "2026-03-20T17:10:13.571898+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-13_575435_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-13_354767_12196.txt",
+      "size_bytes": 75233,
+      "mtime_iso": "2026-03-20T17:10:13.351895+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-13_354767_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-13_134587_12196.txt",
+      "size_bytes": 71403,
+      "mtime_iso": "2026-03-20T17:10:13.131893+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-13_134587_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-12_915726_12196.txt",
+      "size_bytes": 67582,
+      "mtime_iso": "2026-03-20T17:10:12.911890+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-12_915726_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-12_695206_12196.txt",
+      "size_bytes": 63749,
+      "mtime_iso": "2026-03-20T17:10:12.691888+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-12_695206_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-12_469050_12196.txt",
+      "size_bytes": 59931,
+      "mtime_iso": "2026-03-20T17:10:12.467885+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-12_469050_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-12_253096_12196.txt",
+      "size_bytes": 56095,
+      "mtime_iso": "2026-03-20T17:10:12.251883+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-12_253096_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-12_37406_12196.txt",
+      "size_bytes": 52267,
+      "mtime_iso": "2026-03-20T17:10:12.035880+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-12_37406_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-11_823102_12196.txt",
+      "size_bytes": 48453,
+      "mtime_iso": "2026-03-20T17:10:11.819878+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-11_823102_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-11_609869_12196.txt",
+      "size_bytes": 44610,
+      "mtime_iso": "2026-03-20T17:10:11.607876+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-11_609869_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-11_397335_12196.txt",
+      "size_bytes": 40798,
+      "mtime_iso": "2026-03-20T17:10:11.395873+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-11_397335_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-10_552152_12196.txt",
+      "size_bytes": 36960,
+      "mtime_iso": "2026-03-20T17:10:10.547863+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-10_552152_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-10_341631_12196.txt",
+      "size_bytes": 36737,
+      "mtime_iso": "2026-03-20T17:10:10.339861+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-10_341631_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-10_129585_12196.txt",
+      "size_bytes": 33018,
+      "mtime_iso": "2026-03-20T17:10:10.127859+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-10_129585_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-10-09_919117_12196.txt",
+      "size_bytes": 29300,
+      "mtime_iso": "2026-03-20T17:10:09.915856+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-10-09_919117_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-50_295016_12196.txt",
+      "size_bytes": 26387,
+      "mtime_iso": "2026-03-20T17:09:50.291633+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-50_295016_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-48_396743_12196.txt",
+      "size_bytes": 26064,
+      "mtime_iso": "2026-03-20T17:09:48.395611+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-48_396743_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-47_766098_12196.txt",
+      "size_bytes": 25454,
+      "mtime_iso": "2026-03-20T17:09:47.763604+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-47_766098_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-47_557568_12196.txt",
+      "size_bytes": 23848,
+      "mtime_iso": "2026-03-20T17:09:47.555601+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-47_557568_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-47_350120_12196.txt",
+      "size_bytes": 20187,
+      "mtime_iso": "2026-03-20T17:09:47.347599+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-47_350120_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-45_665691_12196.txt",
+      "size_bytes": 16517,
+      "mtime_iso": "2026-03-20T17:09:45.663580+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-45_665691_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-45_459378_12196.txt",
+      "size_bytes": 15244,
+      "mtime_iso": "2026-03-20T17:09:45.455577+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-45_459378_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-45_253679_12196.txt",
+      "size_bytes": 14354,
+      "mtime_iso": "2026-03-20T17:09:45.251575+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-45_253679_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-45_48111_12196.txt",
+      "size_bytes": 13058,
+      "mtime_iso": "2026-03-20T17:09:45.043573+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-45_48111_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-44_842806_12196.txt",
+      "size_bytes": 12878,
+      "mtime_iso": "2026-03-20T17:09:44.839571+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-44_842806_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-44_637070_12196.txt",
+      "size_bytes": 10851,
+      "mtime_iso": "2026-03-20T17:09:44.635568+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-44_637070_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-44_432344_12196.txt",
+      "size_bytes": 7174,
+      "mtime_iso": "2026-03-20T17:09:44.427566+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-44_432344_12196.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_13-09-44_228367_12196.txt",
+      "size_bytes": 6048,
+      "mtime_iso": "2026-03-20T17:09:44.223563+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_13-09-44_228367_12196.txt"
+    },
+    {
+      "filepath": "inventory_v2.json",
+      "size_bytes": 16273,
+      "mtime_iso": "2026-03-20T17:08:50.426949+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "inventory_v2.json"
+    },
+    {
+      "filepath": "ORCHESTRA.md",
+      "size_bytes": 31145,
+      "mtime_iso": "2026-03-20T16:47:21.160543+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "ORCHESTRA.md"
+    },
+    {
+      "filepath": "action_plan.json",
+      "size_bytes": 13211,
+      "mtime_iso": "2026-03-20T16:04:50.296596+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "action_plan.json"
+    },
+    {
+      "filepath": "action_orchestrator.py",
+      "size_bytes": 9650,
+      "mtime_iso": "2026-03-20T16:04:46.468556+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "action_orchestrator.py"
+    },
+    {
+      "filepath": "flow_analysis.json",
+      "size_bytes": 22235,
+      "mtime_iso": "2026-03-20T16:03:23.471695+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "flow_analysis.json"
+    },
+    {
+      "filepath": "flow_detection.py",
+      "size_bytes": 9403,
+      "mtime_iso": "2026-03-20T16:03:18.875648+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "flow_detection.py"
+    },
+    {
+      "filepath": "classified_inventory.json",
+      "size_bytes": 21506,
+      "mtime_iso": "2026-03-20T16:00:49.906020+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "classified_inventory.json"
+    },
+    {
+      "filepath": "classify_score.py",
+      "size_bytes": 6231,
+      "mtime_iso": "2026-03-20T16:00:45.905976+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "classify_score.py"
+    },
+    {
+      "filepath": "inventory.json",
+      "size_bytes": 12073,
+      "mtime_iso": "2026-03-20T15:59:21.541041+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "inventory.json"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_687124_8968.txt",
+      "size_bytes": 10776,
+      "mtime_iso": "2026-03-20T15:59:10.680921+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_11-59-10_687124_8968.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_480995_8968.txt",
+      "size_bytes": 8552,
+      "mtime_iso": "2026-03-20T15:59:10.476919+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_11-59-10_480995_8968.txt"
+    },
+    {
+      "filepath": "prompt-orchester.md",
+      "size_bytes": 30847,
+      "mtime_iso": "2026-03-20T15:53:42.709277+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "prompt-orchester.md"
+    },
+    {
+      "filepath": "universales_operationsprotokoll.md",
+      "size_bytes": 2786,
+      "mtime_iso": "2026-03-15T03:08:15.569188+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "universales_operationsprotokoll.md"
+    },
+    {
+      "filepath": "interaktionsprotokoll.md",
+      "size_bytes": 2993,
+      "mtime_iso": "2026-03-15T03:04:10.712013+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "interaktionsprotokoll.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/SKILL.md",
+      "size_bytes": 4669,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/meta_kern_prompt.md",
+      "size_bytes": 3874,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "meta_kern_prompt.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_pack_system.md",
+      "size_bytes": 5960,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "prompt_pack_system.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_kalibrierungs_generator.md",
+      "size_bytes": 4263,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "prompt_kalibrierungs_generator.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/system_integration.md",
+      "size_bytes": 6816,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "system_integration.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+      "size_bytes": 1730,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".py",
+      "directory": "skills/prompt-engineering-system/scripts",
+      "filename": "generate_prompt.py"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/SKILL.md",
+      "size_bytes": 3858,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".md",
+      "directory": "skills/zti-delta-algorithm",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/zti_metaphor.yaml",
+      "size_bytes": 717,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".yaml",
+      "directory": "skills/zti-delta-algorithm/references",
+      "filename": "zti_metaphor.yaml"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/abcd_model.yaml",
+      "size_bytes": 3044,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".yaml",
+      "directory": "skills/zti-delta-algorithm/references",
+      "filename": "abcd_model.yaml"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "size_bytes": 2700,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".py",
+      "directory": "skills/zti-delta-algorithm/scripts",
+      "filename": "validate_delta.py"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/templates/delta_block_template.yaml",
+      "size_bytes": 131,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".yaml",
+      "directory": "skills/zti-delta-algorithm/templates",
+      "filename": "delta_block_template.yaml"
+    },
+    {
+      "filepath": "skills/skill-creator/SKILL.md",
+      "size_bytes": 10326,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/skill-creator/LICENSE.txt",
+      "size_bytes": 11357,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".txt",
+      "directory": "skills/skill-creator",
+      "filename": "LICENSE.txt"
+    },
+    {
+      "filepath": "skills/skill-creator/references/workflows.md",
+      "size_bytes": 816,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator/references",
+      "filename": "workflows.md"
+    },
+    {
+      "filepath": "skills/skill-creator/references/progressive-disclosure-patterns.md",
+      "size_bytes": 2748,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator/references",
+      "filename": "progressive-disclosure-patterns.md"
+    },
+    {
+      "filepath": "skills/skill-creator/references/output-patterns.md",
+      "size_bytes": 1812,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator/references",
+      "filename": "output-patterns.md"
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/init_skill.py",
+      "size_bytes": 10763,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".py",
+      "directory": "skills/skill-creator/scripts",
+      "filename": "init_skill.py"
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/quick_validate.py",
+      "size_bytes": 4749,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".py",
+      "directory": "skills/skill-creator/scripts",
+      "filename": "quick_validate.py"
+    },
+    {
+      "filepath": "skills/internet-skill-finder/SKILL.md",
+      "size_bytes": 1746,
+      "mtime_iso": "2026-03-15T00:55:42.387885+00:00",
+      "extension": ".md",
+      "directory": "skills/internet-skill-finder",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/internet-skill-finder/references/skills_cache.json",
+      "size_bytes": 103086,
+      "mtime_iso": "2026-03-15T00:55:42.387885+00:00",
+      "extension": ".json",
+      "directory": "skills/internet-skill-finder/references",
+      "filename": "skills_cache.json"
+    },
+    {
+      "filepath": "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "size_bytes": 15538,
+      "mtime_iso": "2026-03-15T00:55:42.387885+00:00",
+      "extension": ".py",
+      "directory": "skills/internet-skill-finder/scripts",
+      "filename": "fetch_skills.py"
+    },
+    {
+      "filepath": "skills/universal-template-generator/SKILL.md",
+      "size_bytes": 8416,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".md",
+      "directory": "skills/universal-template-generator",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/template_catalog.md",
+      "size_bytes": 2865,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".md",
+      "directory": "skills/universal-template-generator/references",
+      "filename": "template_catalog.md"
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/format_specs.md",
+      "size_bytes": 2144,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".md",
+      "directory": "skills/universal-template-generator/references",
+      "filename": "format_specs.md"
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/validate_template.py",
+      "size_bytes": 4325,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".py",
+      "directory": "skills/universal-template-generator/scripts",
+      "filename": "validate_template.py"
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/fill_template.py",
+      "size_bytes": 2627,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".py",
+      "directory": "skills/universal-template-generator/scripts",
+      "filename": "fill_template.py"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/SKILL.md",
+      "size_bytes": 5415,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/analysis_prompts.md",
+      "size_bytes": 15060,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/references",
+      "filename": "analysis_prompts.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/best_practices.md",
+      "size_bytes": 10203,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/references",
+      "filename": "best_practices.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "size_bytes": 16505,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".py",
+      "directory": "skills/mapping-analysis-templates/scripts",
+      "filename": "generate_schema.py"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "size_bytes": 11521,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".py",
+      "directory": "skills/mapping-analysis-templates/scripts",
+      "filename": "validate_mapping.py"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+      "size_bytes": 2360,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/templates",
+      "filename": "data_mapping_template.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+      "size_bytes": 3937,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/templates",
+      "filename": "process_mapping_template.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+      "size_bytes": 7981,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/templates",
+      "filename": "system_mapping_template.md"
+    },
+    {
+      "filepath": "skills/prompt-calibration-triggering/SKILL.md",
+      "size_bytes": 20798,
+      "mtime_iso": "2026-03-15T00:55:42.351885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-calibration-triggering",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/gws-best-practices/SKILL.md",
+      "size_bytes": 3541,
+      "mtime_iso": "2026-03-15T00:55:42.343885+00:00",
+      "extension": ".md",
+      "directory": "skills/gws-best-practices",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "sandbox.txt",
+      "size_bytes": 19,
+      "mtime_iso": "2026-03-12T14:25:51+00:00",
+      "extension": ".txt",
+      "directory": ".",
+      "filename": "sandbox.txt"
+    }
+  ],
+  "summary": {
+    "total_files": 222,
+    "total_size_bytes": 46175389,
+    "oldest_file": "2026-03-12T14:25:51+00:00",
+    "newest_file": "2026-03-20T18:56:59.845486+00:00"
+  },
+  "metadata": {
+    "scan_time": "2026-03-20T18:57:03.906490+00:00",
+    "scanned_path": "/home/ubuntu",
+    "triggered_by": "Gemini-CLI (Twin-Relay) via Telegram Gateway",
+    "bridge_verification": {
+      "test_id": "COMM_BRIDGE_VERIFICATION",
+      "test_string": "TestHirorohi782",
+      "source_received": "Gemini-CLI (Twin-Relay)",
+      "target_confirmed": "Manus (Executive)",
+      "status": "BRIDGE_VERIFIED_BIDIRECTIONAL",
+      "gemini_prompt_executed": true,
+      "response_timestamp": "2026-03-20T18:57:03.906494+00:00"
+    }
+  }
+}

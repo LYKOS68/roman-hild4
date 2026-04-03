@@ -1,0 +1,494 @@
+{
+  "inventory": [
+    {
+      "filepath": ".user_env",
+      "size_bytes": 1777,
+      "mtime_iso": "2026-03-20T17:08:03.790412+00:00",
+      "extension": "",
+      "directory": ".",
+      "filename": ".user_env"
+    },
+    {
+      "filepath": "soul.md",
+      "size_bytes": 4773,
+      "mtime_iso": "2026-03-20T17:08:03.718412+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "soul.md"
+    },
+    {
+      "filepath": ".bash_history",
+      "size_bytes": 5346,
+      "mtime_iso": "2026-03-20T17:07:35.846094+00:00",
+      "extension": "",
+      "directory": ".",
+      "filename": ".bash_history"
+    },
+    {
+      "filepath": "ORCHESTRA.md",
+      "size_bytes": 31145,
+      "mtime_iso": "2026-03-20T16:47:21.160543+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "ORCHESTRA.md"
+    },
+    {
+      "filepath": "action_plan.json",
+      "size_bytes": 13211,
+      "mtime_iso": "2026-03-20T16:04:50.296596+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "action_plan.json"
+    },
+    {
+      "filepath": "action_orchestrator.py",
+      "size_bytes": 9650,
+      "mtime_iso": "2026-03-20T16:04:46.468556+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "action_orchestrator.py"
+    },
+    {
+      "filepath": "flow_analysis.json",
+      "size_bytes": 22235,
+      "mtime_iso": "2026-03-20T16:03:23.471695+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "flow_analysis.json"
+    },
+    {
+      "filepath": "flow_detection.py",
+      "size_bytes": 9403,
+      "mtime_iso": "2026-03-20T16:03:18.875648+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "flow_detection.py"
+    },
+    {
+      "filepath": "classified_inventory.json",
+      "size_bytes": 21506,
+      "mtime_iso": "2026-03-20T16:00:49.906020+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "classified_inventory.json"
+    },
+    {
+      "filepath": "classify_score.py",
+      "size_bytes": 6231,
+      "mtime_iso": "2026-03-20T16:00:45.905976+00:00",
+      "extension": ".py",
+      "directory": ".",
+      "filename": "classify_score.py"
+    },
+    {
+      "filepath": "inventory.json",
+      "size_bytes": 12073,
+      "mtime_iso": "2026-03-20T15:59:21.541041+00:00",
+      "extension": ".json",
+      "directory": ".",
+      "filename": "inventory.json"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_687124_8968.txt",
+      "size_bytes": 10776,
+      "mtime_iso": "2026-03-20T15:59:10.680921+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_11-59-10_687124_8968.txt"
+    },
+    {
+      "filepath": "terminal_full_output/2026-03-20_11-59-10_480995_8968.txt",
+      "size_bytes": 8552,
+      "mtime_iso": "2026-03-20T15:59:10.476919+00:00",
+      "extension": ".txt",
+      "directory": "terminal_full_output",
+      "filename": "2026-03-20_11-59-10_480995_8968.txt"
+    },
+    {
+      "filepath": "prompt-orchester.md",
+      "size_bytes": 30847,
+      "mtime_iso": "2026-03-20T15:53:42.709277+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "prompt-orchester.md"
+    },
+    {
+      "filepath": "universales_operationsprotokoll.md",
+      "size_bytes": 2786,
+      "mtime_iso": "2026-03-15T03:08:15.569188+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "universales_operationsprotokoll.md"
+    },
+    {
+      "filepath": "interaktionsprotokoll.md",
+      "size_bytes": 2993,
+      "mtime_iso": "2026-03-15T03:04:10.712013+00:00",
+      "extension": ".md",
+      "directory": ".",
+      "filename": "interaktionsprotokoll.md"
+    },
+    {
+      "filepath": "skills/.skill_versions.json",
+      "size_bytes": 437,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".json",
+      "directory": "skills",
+      "filename": ".skill_versions.json"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/SKILL.md",
+      "size_bytes": 4669,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/meta_kern_prompt.md",
+      "size_bytes": 3874,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "meta_kern_prompt.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_pack_system.md",
+      "size_bytes": 5960,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "prompt_pack_system.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/prompt_kalibrierungs_generator.md",
+      "size_bytes": 4263,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "prompt_kalibrierungs_generator.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/references/system_integration.md",
+      "size_bytes": 6816,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-engineering-system/references",
+      "filename": "system_integration.md"
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+      "size_bytes": 1730,
+      "mtime_iso": "2026-03-15T00:55:42.411885+00:00",
+      "extension": ".py",
+      "directory": "skills/prompt-engineering-system/scripts",
+      "filename": "generate_prompt.py"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/SKILL.md",
+      "size_bytes": 3858,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".md",
+      "directory": "skills/zti-delta-algorithm",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/zti_metaphor.yaml",
+      "size_bytes": 717,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".yaml",
+      "directory": "skills/zti-delta-algorithm/references",
+      "filename": "zti_metaphor.yaml"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/references/abcd_model.yaml",
+      "size_bytes": 3044,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".yaml",
+      "directory": "skills/zti-delta-algorithm/references",
+      "filename": "abcd_model.yaml"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "size_bytes": 2700,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".py",
+      "directory": "skills/zti-delta-algorithm/scripts",
+      "filename": "validate_delta.py"
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/templates/delta_block_template.yaml",
+      "size_bytes": 131,
+      "mtime_iso": "2026-03-15T00:55:42.407885+00:00",
+      "extension": ".yaml",
+      "directory": "skills/zti-delta-algorithm/templates",
+      "filename": "delta_block_template.yaml"
+    },
+    {
+      "filepath": "skills/skill-creator/.DS_Store",
+      "size_bytes": 6148,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": "",
+      "directory": "skills/skill-creator",
+      "filename": ".DS_Store"
+    },
+    {
+      "filepath": "skills/skill-creator/SKILL.md",
+      "size_bytes": 10326,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/skill-creator/LICENSE.txt",
+      "size_bytes": 11357,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".txt",
+      "directory": "skills/skill-creator",
+      "filename": "LICENSE.txt"
+    },
+    {
+      "filepath": "skills/skill-creator/references/workflows.md",
+      "size_bytes": 816,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator/references",
+      "filename": "workflows.md"
+    },
+    {
+      "filepath": "skills/skill-creator/references/progressive-disclosure-patterns.md",
+      "size_bytes": 2748,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator/references",
+      "filename": "progressive-disclosure-patterns.md"
+    },
+    {
+      "filepath": "skills/skill-creator/references/output-patterns.md",
+      "size_bytes": 1812,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".md",
+      "directory": "skills/skill-creator/references",
+      "filename": "output-patterns.md"
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/init_skill.py",
+      "size_bytes": 10763,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".py",
+      "directory": "skills/skill-creator/scripts",
+      "filename": "init_skill.py"
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/quick_validate.py",
+      "size_bytes": 4749,
+      "mtime_iso": "2026-03-15T00:55:42.395885+00:00",
+      "extension": ".py",
+      "directory": "skills/skill-creator/scripts",
+      "filename": "quick_validate.py"
+    },
+    {
+      "filepath": "skills/internet-skill-finder/SKILL.md",
+      "size_bytes": 1746,
+      "mtime_iso": "2026-03-15T00:55:42.387885+00:00",
+      "extension": ".md",
+      "directory": "skills/internet-skill-finder",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/internet-skill-finder/references/skills_cache.json",
+      "size_bytes": 103086,
+      "mtime_iso": "2026-03-15T00:55:42.387885+00:00",
+      "extension": ".json",
+      "directory": "skills/internet-skill-finder/references",
+      "filename": "skills_cache.json"
+    },
+    {
+      "filepath": "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "size_bytes": 15538,
+      "mtime_iso": "2026-03-15T00:55:42.387885+00:00",
+      "extension": ".py",
+      "directory": "skills/internet-skill-finder/scripts",
+      "filename": "fetch_skills.py"
+    },
+    {
+      "filepath": "skills/universal-template-generator/SKILL.md",
+      "size_bytes": 8416,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".md",
+      "directory": "skills/universal-template-generator",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/template_catalog.md",
+      "size_bytes": 2865,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".md",
+      "directory": "skills/universal-template-generator/references",
+      "filename": "template_catalog.md"
+    },
+    {
+      "filepath": "skills/universal-template-generator/references/format_specs.md",
+      "size_bytes": 2144,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".md",
+      "directory": "skills/universal-template-generator/references",
+      "filename": "format_specs.md"
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/validate_template.py",
+      "size_bytes": 4325,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".py",
+      "directory": "skills/universal-template-generator/scripts",
+      "filename": "validate_template.py"
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/fill_template.py",
+      "size_bytes": 2627,
+      "mtime_iso": "2026-03-15T00:55:42.363885+00:00",
+      "extension": ".py",
+      "directory": "skills/universal-template-generator/scripts",
+      "filename": "fill_template.py"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/SKILL.md",
+      "size_bytes": 5415,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/analysis_prompts.md",
+      "size_bytes": 15060,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/references",
+      "filename": "analysis_prompts.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/references/best_practices.md",
+      "size_bytes": 10203,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/references",
+      "filename": "best_practices.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "size_bytes": 16505,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".py",
+      "directory": "skills/mapping-analysis-templates/scripts",
+      "filename": "generate_schema.py"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "size_bytes": 11521,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".py",
+      "directory": "skills/mapping-analysis-templates/scripts",
+      "filename": "validate_mapping.py"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+      "size_bytes": 2360,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/templates",
+      "filename": "data_mapping_template.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+      "size_bytes": 3937,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/templates",
+      "filename": "process_mapping_template.md"
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+      "size_bytes": 7981,
+      "mtime_iso": "2026-03-15T00:55:42.359885+00:00",
+      "extension": ".md",
+      "directory": "skills/mapping-analysis-templates/templates",
+      "filename": "system_mapping_template.md"
+    },
+    {
+      "filepath": "skills/prompt-calibration-triggering/SKILL.md",
+      "size_bytes": 20798,
+      "mtime_iso": "2026-03-15T00:55:42.351885+00:00",
+      "extension": ".md",
+      "directory": "skills/prompt-calibration-triggering",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": "skills/gws-best-practices/SKILL.md",
+      "size_bytes": 3541,
+      "mtime_iso": "2026-03-15T00:55:42.343885+00:00",
+      "extension": ".md",
+      "directory": "skills/gws-best-practices",
+      "filename": "SKILL.md"
+    },
+    {
+      "filepath": ".env",
+      "size_bytes": 1036,
+      "mtime_iso": "2026-03-15T00:55:42.231885+00:00",
+      "extension": "",
+      "directory": ".",
+      "filename": ".env"
+    },
+    {
+      "filepath": ".bashrc",
+      "size_bytes": 4260,
+      "mtime_iso": "2026-03-12T15:08:07.956685+00:00",
+      "extension": "",
+      "directory": ".",
+      "filename": ".bashrc"
+    },
+    {
+      "filepath": ".zshrc",
+      "size_bytes": 218,
+      "mtime_iso": "2026-03-12T15:08:07.956685+00:00",
+      "extension": "",
+      "directory": ".",
+      "filename": ".zshrc"
+    },
+    {
+      "filepath": "sandbox.txt",
+      "size_bytes": 19,
+      "mtime_iso": "2026-03-12T14:25:51+00:00",
+      "extension": ".txt",
+      "directory": ".",
+      "filename": "sandbox.txt"
+    },
+    {
+      "filepath": ".bash_logout",
+      "size_bytes": 220,
+      "mtime_iso": "2022-01-06T16:23:33+00:00",
+      "extension": "",
+      "directory": ".",
+      "filename": ".bash_logout"
+    },
+    {
+      "filepath": ".profile",
+      "size_bytes": 807,
+      "mtime_iso": "2022-01-06T16:23:33+00:00",
+      "extension": "",
+      "directory": ".",
+      "filename": ".profile"
+    }
+  ],
+  "summary": {
+    "total_files": 60,
+    "total_size_bytes": 524850,
+    "oldest_file": "2022-01-06T16:23:33+00:00",
+    "newest_file": "2026-03-20T17:08:03.790412+00:00"
+  },
+  "metadata": {
+    "scan_time": "2026-03-20T17:08:50.429013+00:00",
+    "scanned_path": "/home/ubuntu"
+  }
+}

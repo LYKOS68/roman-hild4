@@ -1,0 +1,158 @@
+# Terminal Full Output
+# Terminal: analysis
+# Command: cd /home/ubuntu && python3 -c "
+import json
+with open('deep_analysis.json') as f:
+    d = json.load(f)
+print('=== ZUSAMMENFASSUNG ===')
+print(json.dumps(d['summary'], indent=2))
+print()
+print('=== KERN-DATEIEN ===')
+for c in d['core_files']:
+    print(f'  [{c[\"category\"]:15s}] {c[\"path\"]:55s} ({c[\"size_bytes\"]:>8d} B) - {c[\"reason\"]}')
+print()
+print('=== VORLAGEN (BOILERPLATE) ===')
+for c in d['boilerplate_files']:
+    print(f'  [{c[\"category\"]:15s}] {c[\"path\"]:55s} ({c[\"size_bytes\"]:>8d} B)')
+print()
+print('=== ABHAENGIGKEITSMATRIX ===')
+for script, deps in d['dependency_matrix'].items():
+    print(f'  {script}:')
+    print(f'    Extern: {deps[\"external\"]}')
+    print(f'    Intern: {deps[\"internal\"]}')
+    print(f'    Liest Dateien: {deps[\"reads_files\"]} | Schreibt: {deps[\"writes_files\"]} | Einstiegspunkt: {deps[\"has_main\"]}')
+print()
+print('=== DATENFLUSS ===')
+for fl in d['data_flow']:
+    print(f'  {fl[\"source\"]:45s} --[{fl[\"type\"]:12s}]--> {fl[\"target\"]:30s} | {fl[\"desc\"]}')
+print()
+print('=== GEDANKENKETTE ===')
+for step in d['chain_of_thought']:
+    print(f'  {step}')
+"
+
+# PID: 13959
+# Timestamp: 2026-03-20_13-47-24.410488
+# Original Length: 8065 characters
+# ----------------------------------------
+
+=== ZUSAMMENFASSUNG ===
+{
+  "total_files": 223,
+  "core": 31,
+  "boilerplate": 6,
+  "support": 186,
+  "python_scripts": 13,
+  "entry_points": [
+    "flow_detection.py",
+    "deep_analysis_script.py",
+    "skills/mapping-analysis-templates/scripts/generate_schema.py",
+    "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+    "skills/universal-template-generator/scripts/validate_template.py",
+    "skills/universal-template-generator/scripts/fill_template.py",
+    "skills/internet-skill-finder/scripts/fetch_skills.py",
+    "skills/skill-creator/scripts/init_skill.py",
+    "skills/skill-creator/scripts/quick_validate.py",
+    "skills/zti-delta-algorithm/scripts/validate_delta.py",
+    "skills/prompt-engineering-system/scripts/generate_prompt.py"
+  ]
+}
+=== KERN-DATEIEN ===
+  [PROTOCOL       ] soul.md                                                 (    4773 B) - Kern-Protokoll des Systems
+  [PROTOCOL       ] universales_operationsprotokoll.md                      (    2786 B) - Kern-Protokoll des Systems
+  [PROTOCOL       ] interaktionsprotokoll.md                                (    2993 B) - Kern-Protokoll des Systems
+  [PROTOCOL       ] prompt-orchester.md                                     (   30847 B) - Kern-Protokoll des Systems
+  [ANALYSIS_DATA  ] inventory.json                                          (   12073 B) - Analyse-Ergebnis der Prompt-Kette
+  [SCRIPT         ] classify_score.py                                       (    6231 B) - Ausfuehrbares Analyse-Skript
+  [ANALYSIS_DATA  ] classified_inventory.json                               (   21506 B) - Analyse-Ergebnis der Prompt-Kette
+  [SCRIPT         ] flow_detection.py                                       (    9403 B) - Ausfuehrbares Analyse-Skript
+  [ANALYSIS_DATA  ] flow_analysis.json                                      (   22235 B) - Analyse-Ergebnis der Prompt-Kette
+  [SCRIPT         ] action_orchestrator.py                                  (    9650 B) - Ausfuehrbares Analyse-Skript
+  [ANALYSIS_DATA  ] action_plan.json                                        (   13211 B) - Analyse-Ergebnis der Prompt-Kette
+  [PROTOCOL       ] ORCHESTRA.md                                            (   31145 B) - Kern-Protokoll des Systems
+  [ANALYSIS_DATA  ] inventory_v2.json                                       (   16273 B) - Analyse-Ergebnis der Prompt-Kette
+  [SCRIPT         ] deep_analysis_script.py                                 (    8290 B) - Ausfuehrbares Analyse-Skript
+  [SKILL_DEF      ] skills/gws-best-practices/SKILL.md                      (    3541 B) - Fertigkeits-Definition
+  [SKILL_DEF      ] skills/prompt-calibration-triggering/SKILL.md           (   20798 B) - Fertigkeits-Definition
+  [SKILL_DEF      ] skills/mapping-analysis-templates/SKILL.md              (    5415 B) - Fertigkeits-Definition
+  [SKILL_SCRIPT   ] skills/mapping-analysis-templates/scripts/generate_schema.py (   16505 B) - Fertigkeits-Skript
+  [SKILL_SCRIPT   ] skills/mapping-analysis-templates/scripts/validate_mapping.py (   11521 B) - Fertigkeits-Skript
+  [SKILL_DEF      ] skills/universal-template-generator/SKILL.md            (    8416 B) - Fertigkeits-Definition
+  [SKILL_SCRIPT   ] skills/universal-template-generator/scripts/validate_template.py (    4325 B) - Fertigkeits-Skript
+  [SKILL_SCRIPT   ] skills/universal-template-generator/scripts/fill_template.py (    2627 B) - Fertigkeits-Skript
+  [SKILL_DEF      ] skills/internet-skill-finder/SKILL.md                   (    1746 B) - Fertigkeits-Definition
+  [SKILL_SCRIPT   ] skills/internet-skill-finder/scripts/fetch_skills.py    (   15538 B) - Fertigkeits-Skript
+  [SKILL_DEF      ] skills/skill-creator/SKILL.md                           (   10326 B) - Fertigkeits-Definition
+  [SKILL_SCRIPT   ] skills/skill-creator/scripts/init_skill.py              (   10763 B) - Fertigkeits-Skript
+  [SKILL_SCRIPT   ] skills/skill-creator/scripts/quick_validate.py          (    4749 B) - Fertigkeits-Skript
+  [SKILL_DEF      ] skills/zti-delta-algorithm/SKILL.md                     (    3858 B) - Fertigkeits-Definition
+  [SKILL_SCRIPT   ] skills/zti-delta-algorithm/scripts/validate_delta.py    (    2700 B) - Fertigkeits-Skript
+  [SKILL_DEF      ] skills/prompt-engineering-system/SKILL.md               (    4669 B) - Fertigkeits-Definition
+  [SKILL_SCRIPT   ] skills/prompt-engineering-system/scripts/generate_prompt.py (    1730 B) - Fertigkeits-Skript
+=== VORLAGEN (BOILERPLATE) ===
+  [TEMPLATE       ] skills/mapping-analysis-templates/references/analysis_prompts.md (   15060 B)
+  [TEMPLATE       ] skills/mapping-analysis-templates/references/best_practices.md (   10203 B)
+  [TEMPLATE       ] skills/mapping-analysis-templates/templates/data_mapping_template.md (    2360 B)
+  [TEMPLATE       ] skills/mapping-analysis-templates/templates/process_mapping_template.md (    3937 B)
+  [TEMPLATE       ] skills/mapping-analysis-templates/templates/system_mapping_template.md (    7981 B)
+  [TEMPLATE       ] skills/zti-delta-algorithm/templates/delta_block_template.yaml (     131 B)
+=== ABHAENGIGKEITSMATRIX ===
+  classify_score.py:
+    Extern: ['datetime', 'json,']
+    Intern: []
+    Liest Dateien: True | Schreibt: True | Einstiegspunkt: False
+  flow_detection.py:
+    Extern: ['datetime', 'json,']
+    Intern: []
+    Liest Dateien: True | Schreibt: True | Einstiegspunkt: True
+  action_orchestrator.py:
+    Extern: ['datetime', 'json,']
+    Intern: []
+    Liest Dateien: True | Schreibt: True | Einstiegspunkt: False
+  deep_analysis_script.py:
+    Extern: ['os,']
+    Intern: []
+    Liest Dateien: True | Schreibt: True | Einstiegspunkt: True
+  skills/mapping-analysis-templates/scripts/generate_schema.py:
+    Extern: ['json', 'sys', 'typing']
+    Intern: []
+    Liest Dateien: True | Schreibt: True | Einstiegspunkt: True
+  skills/mapping-analysis-templates/scripts/validate_mapping.py:
+    Extern: ['json', 'sys', 'typing']
+    Intern: []
+    Liest Dateien: True | Schreibt: False | Einstiegspunkt: True
+  skills/universal-template-generator/scripts/validate_template.py:
+    Extern: ['re', 'sys', 'pathlib', 'yaml']
+    Intern: []
+    Liest Dateien: True | Schreibt: False | Einstiegspunkt: True
+  skills/universal-template-generator/scripts/fill_template.py:
+    Extern: ['re', 'sys', 'pathlib']
+    Intern: []
+    Liest Dateien: True | Schreibt: True | Einstiegspunkt: True
+  skills/internet-skill-finder/scripts/fetch_skills.py:
+    Extern: ['json', 're', 'sys', 'subprocess', 'pathlib', 'urllib', 'os', 'base64']
+    Intern: []
+    Liest Dateien: True | Schreibt: True | Einstiegspunkt: True
+  skills/skill-creator/scripts/init_skill.py:
+    Extern: ['sys', 'pathlib']
+    Intern: []
+    Liest Dateien: False | Schreibt: False | Einstiegspunkt: True
+  skills/skill-creator/scripts/quick_validate.py:
+    Extern: ['re', 'sys', 'pathlib', 'yaml']
+    Intern: []
+    Liest Dateien: False | Schreibt: False | Einstiegspunkt: True
+  skills/zti-delta-algorithm/scripts/validate_delta.py:
+    Extern: ['typing', 'sys', 'argparse', 'yaml']
+    Intern: []
+    Liest Dateien: True | Schreibt: False | Einstiegspunkt: True
+  skills/prompt-engineering-system/scripts/generate_prompt.py:
+    Extern: ['json', 'argparse']
+    Intern: []
+    Liest Dateien: True | Schreibt: False | Einstiegspunkt: True
+=== DATENFLUSS ===
+  soul.md                                       --[CONFIGURES  ]--> ALL                            | Master-Preset, definiert Kommunikationsstil und Regeln
+  universales_operationsprotokoll.md            --[GOVERNS     ]--> ALL                            | UOP-Gate, keine Operation ohne Bestaetigung
+  interaktionsprotokoll.md                      --[GOVERNS     ]--> ALL                            | 3+1 Ebenen mit 6R-Check
+  ORCHESTRA.md                                  --[ORCHESTRATES]--> ALL                            | Rollentrennung, Aufgabenzuordnung, Kommunikation
+  inventory.json                                --[FEEDS       ]--> classify_score.py              | Inventar wird klassifiziert
+  classify_score.py                             --[PRODUCES    ]--> clas

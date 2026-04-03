@@ -1,0 +1,654 @@
+{
+  "entry_points": [
+    {
+      "filepath": "skills/skill-creator/scripts/init_skill.py",
+      "type": "python_module",
+      "confidence": 0.95,
+      "detected_patterns": [
+        "init",
+        "main_guard"
+      ]
+    },
+    {
+      "filepath": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+      "type": "python_module",
+      "confidence": 0.9,
+      "detected_patterns": [
+        "main_guard",
+        "cli_args"
+      ]
+    },
+    {
+      "filepath": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "type": "python_module",
+      "confidence": 0.9,
+      "detected_patterns": [
+        "main_guard",
+        "cli_args"
+      ]
+    },
+    {
+      "filepath": "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "type": "python_module",
+      "confidence": 0.8,
+      "detected_patterns": [
+        "main_guard"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "type": "python_module",
+      "confidence": 0.8,
+      "detected_patterns": [
+        "main_guard"
+      ]
+    },
+    {
+      "filepath": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "type": "python_module",
+      "confidence": 0.8,
+      "detected_patterns": [
+        "main_guard"
+      ]
+    },
+    {
+      "filepath": "skills/skill-creator/scripts/quick_validate.py",
+      "type": "python_module",
+      "confidence": 0.8,
+      "detected_patterns": [
+        "main_guard"
+      ]
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/fill_template.py",
+      "type": "python_module",
+      "confidence": 0.8,
+      "detected_patterns": [
+        "main_guard"
+      ]
+    },
+    {
+      "filepath": "skills/universal-template-generator/scripts/validate_template.py",
+      "type": "python_module",
+      "confidence": 0.8,
+      "detected_patterns": [
+        "main_guard"
+      ]
+    }
+  ],
+  "data_flow": {
+    "primary": [
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/gws-best-practices/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/internet-skill-finder/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/internet-skill-finder/references/skills_cache.json",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/mapping-analysis-templates/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/prompt-calibration-triggering/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/prompt-engineering-system/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/skill-creator/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/universal-template-generator/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/zti-delta-algorithm/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/gws-best-practices/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/internet-skill-finder/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/mapping-analysis-templates/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/prompt-calibration-triggering/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/prompt-engineering-system/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/skill-creator/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/skill-creator/references/workflows.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/universal-template-generator/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/zti-delta-algorithm/SKILL.md",
+        "type": "read_write",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/gws-best-practices/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/internet-skill-finder/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/mapping-analysis-templates/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/prompt-calibration-triggering/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/prompt-engineering-system/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/skill-creator/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/universal-template-generator/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/zti-delta-algorithm/SKILL.md",
+        "type": "read",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/SKILL.md",
+        "target": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/SKILL.md",
+        "target": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+        "target": "skills/mapping-analysis-templates/references/analysis_prompts.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+        "target": "skills/mapping-analysis-templates/references/best_practices.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+        "target": "skills/mapping-analysis-templates/references/analysis_prompts.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+        "target": "skills/mapping-analysis-templates/references/best_practices.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+        "target": "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+        "type": "loads_template",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+        "target": "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+        "type": "loads_template",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+        "target": "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+        "type": "loads_template",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+        "target": "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+        "type": "loads_template",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+        "target": "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+        "type": "loads_template",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+        "target": "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+        "type": "loads_template",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/universal-template-generator/SKILL.md",
+        "target": "skills/universal-template-generator/scripts/fill_template.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/universal-template-generator/SKILL.md",
+        "target": "skills/universal-template-generator/scripts/validate_template.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/universal-template-generator/scripts/fill_template.py",
+        "target": "skills/universal-template-generator/references/format_specs.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/universal-template-generator/scripts/fill_template.py",
+        "target": "skills/universal-template-generator/references/template_catalog.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/universal-template-generator/scripts/validate_template.py",
+        "target": "skills/universal-template-generator/references/format_specs.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/universal-template-generator/scripts/validate_template.py",
+        "target": "skills/universal-template-generator/references/template_catalog.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/SKILL.md",
+        "target": "skills/skill-creator/scripts/init_skill.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/skill-creator/SKILL.md",
+        "target": "skills/skill-creator/scripts/quick_validate.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/skill-creator/references/output-patterns.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/skill-creator/references/progressive-disclosure-patterns.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/init_skill.py",
+        "target": "skills/skill-creator/references/workflows.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/skill-creator/references/output-patterns.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/skill-creator/references/progressive-disclosure-patterns.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/skill-creator/scripts/quick_validate.py",
+        "target": "skills/skill-creator/references/workflows.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/zti-delta-algorithm/SKILL.md",
+        "target": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+        "target": "skills/zti-delta-algorithm/references/abcd_model.yaml",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+        "target": "skills/zti-delta-algorithm/references/zti_metaphor.yaml",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+        "target": "skills/zti-delta-algorithm/templates/delta_block_template.yaml",
+        "type": "loads_template",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/internet-skill-finder/SKILL.md",
+        "target": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/internet-skill-finder/scripts/fetch_skills.py",
+        "target": "skills/internet-skill-finder/references/skills_cache.json",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/prompt-engineering-system/SKILL.md",
+        "target": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+        "type": "defines",
+        "frequency": "high"
+      },
+      {
+        "source": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+        "target": "skills/prompt-engineering-system/references/meta_kern_prompt.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+        "target": "skills/prompt-engineering-system/references/prompt_kalibrierungs_generator.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+        "target": "skills/prompt-engineering-system/references/prompt_pack_system.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+        "target": "skills/prompt-engineering-system/references/system_integration.md",
+        "type": "reads",
+        "frequency": "medium"
+      },
+      {
+        "source": "soul.md",
+        "target": "interaktionsprotokoll.md",
+        "type": "configures",
+        "frequency": "high"
+      },
+      {
+        "source": "soul.md",
+        "target": "prompt-orchester.md",
+        "type": "configures",
+        "frequency": "high"
+      },
+      {
+        "source": "soul.md",
+        "target": "universales_operationsprotokoll.md",
+        "type": "configures",
+        "frequency": "high"
+      }
+    ]
+  },
+  "worm_chain_analysis": {
+    "detected": false,
+    "worm_log": null,
+    "block_files": [],
+    "integrity_indicators": [
+      "none_found"
+    ]
+  },
+  "dependency_matrix": [
+    {
+      "file": "skills/internet-skill-finder/scripts/fetch_skills.py",
+      "depends_on": [
+        "skills/skill-creator/SKILL.md",
+        "skills/internet-skill-finder/SKILL.md",
+        "skills/universal-template-generator/SKILL.md",
+        "skills/internet-skill-finder/references/skills_cache.json",
+        "skills/zti-delta-algorithm/SKILL.md",
+        "skills/prompt-calibration-triggering/SKILL.md",
+        "skills/gws-best-practices/SKILL.md",
+        "skills/mapping-analysis-templates/SKILL.md",
+        "skills/prompt-engineering-system/SKILL.md"
+      ],
+      "used_by": [
+        "skills/internet-skill-finder/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/mapping-analysis-templates/scripts/generate_schema.py",
+      "depends_on": [
+        "skills/mapping-analysis-templates/references/best_practices.md",
+        "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+        "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+        "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+        "skills/mapping-analysis-templates/references/analysis_prompts.md"
+      ],
+      "used_by": [
+        "skills/mapping-analysis-templates/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/mapping-analysis-templates/scripts/validate_mapping.py",
+      "depends_on": [
+        "skills/mapping-analysis-templates/references/best_practices.md",
+        "skills/mapping-analysis-templates/templates/system_mapping_template.md",
+        "skills/mapping-analysis-templates/templates/data_mapping_template.md",
+        "skills/mapping-analysis-templates/templates/process_mapping_template.md",
+        "skills/mapping-analysis-templates/references/analysis_prompts.md"
+      ],
+      "used_by": [
+        "skills/mapping-analysis-templates/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/prompt-engineering-system/scripts/generate_prompt.py",
+      "depends_on": [
+        "skills/prompt-engineering-system/references/prompt_kalibrierungs_generator.md",
+        "skills/prompt-engineering-system/references/system_integration.md",
+        "skills/prompt-engineering-system/references/meta_kern_prompt.md",
+        "skills/prompt-engineering-system/references/prompt_pack_system.md"
+      ],
+      "used_by": [
+        "skills/prompt-engineering-system/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/skill-creator/scripts/init_skill.py",
+      "depends_on": [
+        "skills/skill-creator/SKILL.md",
+        "skills/internet-skill-finder/SKILL.md",
+        "skills/universal-template-generator/SKILL.md",
+        "skills/skill-creator/references/progressive-disclosure-patterns.md",
+        "skills/skill-creator/references/workflows.md",
+        "skills/zti-delta-algorithm/SKILL.md",
+        "skills/prompt-calibration-triggering/SKILL.md",
+        "skills/gws-best-practices/SKILL.md",
+        "skills/mapping-analysis-templates/SKILL.md",
+        "skills/skill-creator/references/output-patterns.md",
+        "skills/prompt-engineering-system/SKILL.md"
+      ],
+      "used_by": [
+        "skills/skill-creator/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/skill-creator/scripts/quick_validate.py",
+      "depends_on": [
+        "skills/skill-creator/SKILL.md",
+        "skills/internet-skill-finder/SKILL.md",
+        "skills/universal-template-generator/SKILL.md",
+        "skills/skill-creator/references/progressive-disclosure-patterns.md",
+        "skills/skill-creator/references/workflows.md",
+        "skills/zti-delta-algorithm/SKILL.md",
+        "skills/prompt-calibration-triggering/SKILL.md",
+        "skills/gws-best-practices/SKILL.md",
+        "skills/mapping-analysis-templates/SKILL.md",
+        "skills/skill-creator/references/output-patterns.md",
+        "skills/prompt-engineering-system/SKILL.md"
+      ],
+      "used_by": [
+        "skills/skill-creator/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/universal-template-generator/scripts/fill_template.py",
+      "depends_on": [
+        "skills/universal-template-generator/references/template_catalog.md",
+        "skills/universal-template-generator/references/format_specs.md"
+      ],
+      "used_by": [
+        "skills/universal-template-generator/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/universal-template-generator/scripts/validate_template.py",
+      "depends_on": [
+        "skills/universal-template-generator/references/template_catalog.md",
+        "skills/universal-template-generator/references/format_specs.md"
+      ],
+      "used_by": [
+        "skills/universal-template-generator/SKILL.md"
+      ]
+    },
+    {
+      "file": "skills/zti-delta-algorithm/scripts/validate_delta.py",
+      "depends_on": [
+        "skills/zti-delta-algorithm/references/zti_metaphor.yaml",
+        "skills/zti-delta-algorithm/references/abcd_model.yaml",
+        "skills/zti-delta-algorithm/templates/delta_block_template.yaml"
+      ],
+      "used_by": [
+        "skills/zti-delta-algorithm/SKILL.md"
+      ]
+    },
+    {
+      "file": "interaktionsprotokoll.md",
+      "depends_on": [],
+      "used_by": [
+        "soul.md"
+      ]
+    },
+    {
+      "file": "prompt-orchester.md",
+      "depends_on": [],
+      "used_by": [
+        "soul.md"
+      ]
+    },
+    {
+      "file": "soul.md",
+      "depends_on": [
+        "universales_operationsprotokoll.md",
+        "prompt-orchester.md",
+        "interaktionsprotokoll.md"
+      ],
+      "used_by": []
+    },
+    {
+      "file": "universales_operationsprotokoll.md",
+      "depends_on": [],
+      "used_by": [
+        "soul.md"
+      ]
+    }
+  ],
+  "manifest_references": {
+    "manifest.toml": {
+      "status": "not_found"
+    },
+    "pattern_db.json": {
+      "status": "not_found"
+    },
+    "state.json": {
+      "status": "not_found"
+    }
+  }
+}

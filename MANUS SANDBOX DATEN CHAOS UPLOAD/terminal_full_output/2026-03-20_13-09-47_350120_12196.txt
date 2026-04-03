@@ -1,0 +1,123 @@
+# Terminal Full Output
+# Terminal: search
+# Command: grep -r "TestHirorohi782" /home/ubuntu/ 2>/dev/null; echo "---"; grep -r "test_string" /home/ubuntu/ 2>/dev/null; echo "---"; find /home/ubuntu -name "*bridge*" -o -name "*orchestra_bridge*" -o -name "*test_instruction*" 2>/dev/null
+# PID: 12196
+# Timestamp: 2026-03-20_13-09-47.350120
+# Original Length: 19768 characters
+# ----------------------------------------
+
+---
+[35m/home/ubuntu/.cache/uv/sdists-v9/pypi/nuitka/2.7.16/x_DWeNU6B8MLIg2iJghQk/src/nuitka/build/inline_copy/jinja2/jinja2/tests.py[m[36m:[mdef [01;31mtest_string[m(value):
+[35m/home/ubuntu/.cache/uv/sdists-v9/pypi/nuitka/2.7.16/x_DWeNU6B8MLIg2iJghQk/src/nuitka/build/inline_copy/jinja2/jinja2/tests.py[m[36m:[m    'string':           [01;31mtest_string[m,
+[35m/home/ubuntu/.cache/uv/sdists-v9/pypi/nuitka/2.7.16/x_DWeNU6B8MLIg2iJghQk/src/nuitka/build/inline_copy/jinja2_35/jinja2/tests.py[m[36m:[mdef [01;31mtest_string[m(value):
+[35m/home/ubuntu/.cache/uv/sdists-v9/pypi/nuitka/2.7.16/x_DWeNU6B8MLIg2iJghQk/src/nuitka/build/inline_copy/jinja2_35/jinja2/tests.py[m[36m:[m    'string':           [01;31mtest_string[m,
+[35m/home/ubuntu/.cache/uv/sdists-v9/pypi/nuitka/2.7.16/x_DWeNU6B8MLIg2iJghQk/src/build/lib.linux-x86_64-cpython-313/nuitka/build/inline_copy/jinja2/jinja2/tests.py[m[36m:[mdef [01;31mtest_string[m(value):
+[35m/home/ubuntu/.cache/uv/sdists-v9/pypi/nuitka/2.7.16/x_DWeNU6B8MLIg2iJghQk/src/build/lib.linux-x86_64-cpython-313/nuitka/build/inline_copy/jinja2/jinja2/tests.py[m[36m:[m    'string':           [01;31mtest_string[m,
+[35m/home/ubuntu/.cache/uv/archive-v0/f_ZQLBWMbpkZYcFQymWWx/bs4/tests/__init__.py[m[36m:[m    def [01;31mtest_string[ms_resembling_character_entity_references(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/f_ZQLBWMbpkZYcFQymWWx/bs4/tests/test_navigablestring.py[m[36m:[m    def [01;31mtest_string[m_has_immutable_name_property(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/f_ZQLBWMbpkZYcFQymWWx/bs4/tests/test_tag.py[m[36m:[m    def [01;31mtest_string[m(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/f_ZQLBWMbpkZYcFQymWWx/bs4/tests/test_tag.py[m[36m:[m    def [01;31mtest_string[m_methods_inside_special_string_container_tags(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/f_ZQLBWMbpkZYcFQymWWx/bs4/tests/test_tree.py[m[36m:[m    def [01;31mtest_string[m_set(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/f_ZQLBWMbpkZYcFQymWWx/bs4/tests/test_tree.py[m[36m:[m    def [01;31mtest_string[m_set_does_not_affect_original_string(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/HvxTxiIoqThCI8RoG-NAt/posthog/test/test_client.py[m[36m:[m    def [01;31mtest_string[mifies_distinct_id(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Njp5ZEa49h80KTSmXAuq0/sqlalchemy/testing/suite/test_types.py[m[36m:[m    def [01;31mtest_string[m_cast_crit_spaces_in_key(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Njp5ZEa49h80KTSmXAuq0/sqlalchemy/testing/suite/test_types.py[m[36m:[m    def [01;31mtest_string[m_cast_crit_simple_int(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Njp5ZEa49h80KTSmXAuq0/sqlalchemy/testing/suite/test_types.py[m[36m:[m    def [01;31mtest_string[m_cast_crit_mixed_path(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Njp5ZEa49h80KTSmXAuq0/sqlalchemy/testing/suite/test_types.py[m[36m:[m    def [01;31mtest_string[m_cast_crit_string_path(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Njp5ZEa49h80KTSmXAuq0/sqlalchemy/testing/suite/test_types.py[m[36m:[m    def [01;31mtest_string[m_cast_crit_against_string_basic(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/test_algos.py[m[36m:[m    def [01;31mtest_string[m_factorize(self, writable):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/arrays/string_/test_string.py[m[36m:[mTests for the str accessors are in pandas/tests/strings/[01;31mtest_string[m_array.py
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/arrays/string_/test_string_arrow.py[m[36m:[mdef [01;31mtest_string[m_dtype_error_message():
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/dtypes/test_inference.py[m[36m:[m    def [01;31mtest_string[m(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/dtypes/test_inference.py[m[36m:[m    def [01;31mtest_string[m_dtype(self, data, skipna, klass, nullable_string_dtype):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/extension/test_arrow.py[m[36m:[mdef [01;31mtest_string[m_to_datetime_parsing_cast():
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/extension/test_arrow.py[m[36m:[mdef [01;31mtest_string[m_to_time_parsing_cast():
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/extension/test_string.py[m[36m:[mfrom pandas.tests.arrays.string_.[01;31mtest_string[m import string_dtype_highest_priority
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/frame/test_arithmetic.py[m[36m:[m    def [01;31mtest_string[ms_to_numbers_comparisons_raises(self, compare_operators_no_eq_ne):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/generic/test_finalize.py[m[36m:[mdef [01;31mtest_string[m_method(method):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/groupby/test_reductions.py[m[36m:[mdef [01;31mtest_string[m_dtype_all_na(
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/groupby/test_reductions.py[m[36m:[mdef [01;31mtest_string[m_dtype_empty_sum(string_dtype_no_object, min_count):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/groupby/transform/test_numba.py[m[36m:[mdef [01;31mtest_string[m_cython_vs_numba(agg_func, numba_supported_reductions):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/groupby/transform/test_transform.py[m[36m:[mdef [01;31mtest_string[m_rank_grouping():
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexes/test_frozen.py[m[36m:[m    def [01;31mtest_string[m_methods_dont_fail(self, container):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexes/base_class/test_formats.py[m[36m:[m    def [01;31mtest_string[m_index_repr(self, index, expected):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexes/base_class/test_formats.py[m[36m:[m    def [01;31mtest_string[m_index_repr_with_unicode_option(self, index, expected):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexes/categorical/test_formats.py[m[36m:[m    def [01;31mtest_string[m_categorical_index_repr(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexes/datetimes/test_partial_slicing.py[m[36m:[m    def [01;31mtest_string[m_index_series_name_converted(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexes/datetimes/test_partial_slicing.py[m[36m:[m    def [01;31mtest_string[mified_slice_with_tz(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexing/test_indexing.py[m[36m:[m    def [01;31mtest_string[m_slice(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/indexing/test_indexing.py[m[36m:[m    def [01;31mtest_string[m_slice_empty(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/interchange/test_impl.py[m[36m:[mdef [01;31mtest_string[m(string_data):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/interchange/test_impl.py[m[36m:[mdef [01;31mtest_string[m_validity_buffer() -> None:
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/interchange/test_impl.py[m[36m:[mdef [01;31mtest_string[m_validity_buffer_no_missing() -> None:
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_clipboard.py[m[36m:[mdef [01;31mtest_string[mify_text(text):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_common.py[m[36m:[m    def [01;31mtest_string[mify_path_pathlib(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_common.py[m[36m:[m    def [01;31mtest_string[mify_path_localpath(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_common.py[m[36m:[m    def [01;31mtest_string[mify_path_fspath(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_common.py[m[36m:[m    def [01;31mtest_string[mify_file_and_path_like(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_feather.py[m[36m:[m    def [01;31mtest_string[m_inference(self, tmp_path, using_infer_string):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_feather.py[m[36m:[m        path = tmp_path / "[01;31mtest_string[m_inference.p"
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_feather.py[m[36m:[m    def [01;31mtest_string[m_inference_string_view_type(self, tmp_path):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_html.py[m[36m:[m    def [01;31mtest_string[m_io(self, spam_data, flavor_read_html):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_html.py[m[36m:[m    def [01;31mtest_string[m(self, spam_data, flavor_read_html):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_orc.py[m[36m:[mdef [01;31mtest_string[m_inference(tmp_path):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_orc.py[m[36m:[m    path = tmp_path / "[01;31mtest_string[m_inference.p"
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_parquet.py[m[36m:[m    def [01;31mtest_string[m_inference(self, tmp_path, pa, using_infer_string):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_parquet.py[m[36m:[m        path = tmp_path / "[01;31mtest_string[m_inference.p"
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_parquet.py[m[36m:[m    # def [01;31mtest_string[m_column_above_2GB(self, tmp_path, pa):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/test_stata.py[m[36m:[m    def [01;31mtest_string[m_no_dates(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/formats/test_format.py[m[36m:[m    def [01;31mtest_string[m_repr_encoding(self, datapath):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/formats/style/test_to_string.py[m[36m:[mdef [01;31mtest_string[m_delimiter(styler):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/parser/test_na_values.py[m[36m:[mdef [01;31mtest_string[m_nas(all_parsers):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/parser/test_textreader.py[m[36m:[m    def [01;31mtest_string[m_factorize(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/parser/dtypes/test_dtypes_basic.py[m[36m:[mdef [01;31mtest_string[m_inference(all_parsers):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/parser/dtypes/test_dtypes_basic.py[m[36m:[mdef [01;31mtest_string[m_inference_object_dtype(all_parsers, dtype, using_infer_string):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/pytables/test_select.py[m[36m:[mdef [01;31mtest_string[m_select(setup_path):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/io/xml/test_xml.py[m[36m:[mdef [01;31mtest_string[m_charset(parser):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/libs/test_hashtable.py[m[36m:[m    def [01;31mtest_string[m_hashtable_set_item_signature(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/scalar/timedelta/test_constructors.py[m[36m:[mdef [01;31mtest_string[m_with_unit(constructor, value, unit, expectation):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/scalar/timedelta/test_constructors.py[m[36m:[mdef [01;31mtest_string[m_without_numbers(value):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/series/test_arithmetic.py[m[36m:[m    def [01;31mtest_string[m_addition(self, target_add, input_value, expected_value):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/series/test_formats.py[m[36m:[m    def [01;31mtest_string[m(self, string_series):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/series/indexing/test_getitem.py[m[36m:[m    def [01;31mtest_string[m_index_alias_tz_aware(self, tz):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/strings/test_string_array.py[m[36m:[mdef [01;31mtest_string[m_array(nullable_string_dtype, any_string_method):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/strings/test_string_array.py[m[36m:[mdef [01;31mtest_string[m_array_numeric_integer_array(nullable_string_dtype, method, expected):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/strings/test_string_array.py[m[36m:[mdef [01;31mtest_string[m_array_boolean_array(nullable_string_dtype, method, expected):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/strings/test_string_array.py[m[36m:[mdef [01;31mtest_string[m_array_extract(nullable_string_dtype):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/strings/test_strings.py[m[36m:[mdef [01;31mtest_string[m_slice_get_syntax(any_string_dtype):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/strings/test_strings.py[m[36m:[mdef [01;31mtest_string[m_slice_out_of_bounds_nested():
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/strings/test_strings.py[m[36m:[mdef [01;31mtest_string[m_slice_out_of_bounds(any_string_dtype):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/tools/test_to_datetime.py[m[36m:[m    def [01;31mtest_string[m_invalid_operation(self, cache):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/tools/test_to_datetime.py[m[36m:[m    def [01;31mtest_string[m_na_nat_conversion(self, cache):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/tools/test_to_datetime.py[m[36m:[m    def [01;31mtest_string[m_na_nat_conversion_malformed(self, cache):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/tools/test_to_datetime.py[m[36m:[m    def [01;31mtest_string[m_na_nat_conversion_with_name(self, cache):
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas/tests/tseries/frequencies/test_inference.py[m[36m:[mdef [01;31mtest_string[m_datetime_like_compat():
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas-2.3.3.dist-info/RECORD[m[36m:[mpandas/tests/arrays/string_/[01;31mtest_string[m.py,sha256=VOpQV5D4O2odDd9juJEH-DeGSIBajr__5CkJiri0K-E,30734
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas-2.3.3.dist-info/RECORD[m[36m:[mpandas/tests/arrays/string_/[01;31mtest_string[m_arrow.py,sha256=wporKwrDWw0Ur3KovspMUXk4ZFz5nqrzUoFOxx1kwCI,9712
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas-2.3.3.dist-info/RECORD[m[36m:[mpandas/tests/extension/[01;31mtest_string[m.py,sha256=gckWLFNn288M1ynMCawmzkLNdhJAFDrj5bmgZdV7pQ8,10085
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas-2.3.3.dist-info/RECORD[m[36m:[mpandas/tests/io/parser/usecols/[01;31mtest_string[ms.py,sha256=-ZUBWSpxMgoxqRfGAa0mgb5motUoKveF06V9LUH-nQg,2588
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas-2.3.3.dist-info/RECORD[m[36m:[mpandas/tests/strings/[01;31mtest_string[m_array.py,sha256=yGTtAjj0U8ovvhhiuJ6HS9yLE_fBZIw-7rA9qtDeWLo,3514
+[35m/home/ubuntu/.cache/uv/archive-v0/Z_ivcKya9NXGs_ym12Ufk/pandas-2.3.3.dist-info/RECORD[m[36m:[mpandas/tests/strings/[01;31mtest_string[ms.py,sha256=yiwHl--LRVsP-7ogN5HKmpzBnh4PR9k8C4KafnMP9Xg,29688
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_api.py[m[36m:[mdef [01;31mtest_string[m_to_boolean_cast(dtype, out_dtype):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_api.py[m[36m:[mdef [01;31mtest_string[m_to_complex_cast(str_type, scalar_type):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_argparse.py[m[36m:[mdef [01;31mtest_string[m_fallbacks():
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_casting_unittests.py[m[36m:[m    def [01;31mtest_string[m_cancast(self, other_DT, string_char):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_casting_unittests.py[m[36m:[m    def [01;31mtest_string[m_to_string_cancast(self, other_dt, string_char):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_datetime.py[m[36m:[m    def [01;31mtest_string[m(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_datetime.py[m[36m:[m    def [01;31mtest_string[m_parser_variants(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_datetime.py[m[36m:[m    def [01;31mtest_string[m_parser_error_check(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multiarray.py[m[36m:[m    def [01;31mtest_string[m_align(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multiarray.py[m[36m:[m    def [01;31mtest_string[mlike_empty_list(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multiarray.py[m[36m:[m    def [01;31mtest_string[m(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multiarray.py[m[36m:[m    def [01;31mtest_string[ms(self):  # gh-27984
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multiarray.py[m[36m:[m    def [01;31mtest_string[m(self, tmp_filename):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multiarray.py[m[36m:[m    def [01;31mtest_string[m_with_ws(self, tmp_filename):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multiarray.py[m[36m:[m    def [01;31mtest_string[m(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_multithreading.py[m[36m:[mdef [01;31mtest_string[mdtype_multithreaded_access_and_mutation(
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_regression.py[m[36m:[m    def [01;31mtest_string[m_array_size(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_regression.py[m[36m:[m    def [01;31mtest_string[m_NULL(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_regression.py[m[36m:[m    def [01;31mtest_string[m_mergesort(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_regression.py[m[36m:[m    def [01;31mtest_string[m_argsort_with_zeros(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_regression.py[m[36m:[m    def [01;31mtest_string[m_sort_with_zeros(self):
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_regression.py[m[36m:[m        [01;31mtest_string[m = np.array("test")
+[35m/home/ubuntu/.cache/uv/archive-v0/W1zSo2Oag-NCH7zN3IJi9/numpy/_core/tests/test_regression.py[m[36m

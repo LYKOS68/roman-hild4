@@ -1,0 +1,66 @@
+# Terminal Full Output
+# Terminal: spec_check
+# Command: cp /home/ubuntu/XA328QjlxiCzuqxKpLYziX/dry_run_spec.md /home/ubuntu/dry_run_spec.md && wc -l /home/ubuntu/dry_run_spec.md && echo "---" && head -80 /home/ubuntu/dry_run_spec.md
+# PID: 55489
+# Timestamp: 2026-04-03_09-56-10.875384
+# Original Length: 6778 characters
+# ----------------------------------------
+
+188 /home/ubuntu/dry_run_spec.md
+---
+# DRY-RUN / SPEC-MODUS: Cognitive Orchestra / Synergos 3-Dateien-System
+## UMFELDPRÜFUNG
+Die aktuelle Systemumgebung und die vorhandenen Ressourcen wurden einer umfassenden Analyse unterzogen, um den Startzustand (STATE 0) für das Deployment der Version 2.0 festzustellen. Die Sandbox (Ubuntu 22.04 Cloud-Server) ist funktionsbereit und stellt grundlegende Werkzeuge wie `jq` und `sha256sum` zur Verfügung.
+**Aktueller Zustand der relevanten Dateien:**
+| Datei | Version / Größe | Status |
+|---|---|---|
+| `/home/ubuntu/upload/ANWEISUNG.md` | v1, 5.5 KB | Veraltet, wird durch den neuen Master-Entwurf (v2.0) ersetzt. |
+| `/home/ubuntu/upload/state.json` | v1, 532 Bytes | Befindet sich im INIT-Zustand. Wird strukturell für ZTIIS erweitert. |
+| `/home/ubuntu/upload/ledger.log` | v1, 96 Bytes | Enthält den initialen Eintrag. Wird nach dem WORM-Prinzip fortgeführt. |
+| `/home/ubuntu/upload/genie_team.json` | v1, 3.9 KB | Dient als Referenz für die Rollenverteilung und bleibt erhalten. |
+| `/home/ubuntu/upload/handnotizen_transkription.md` | - | Dient als primäre Quelle für die ZTIIS-Spezifikation und das Operator-Mapping. |
+| `/home/ubuntu/upload/soul.md` | - | Dient als Referenz für Kommunikationsregeln und die Implementierung der Da-Vinci-Gates. |
+**Potenzielle Risiken und Konflikte:**
+Ein direktes Überschreiben der `state.json` und `ledger.log` ohne vorherige Sicherung birgt das Risiko eines Datenverlusts. Daher ist die Erstellung eines Archiv-ZIPs vor jeglicher Modifikation zwingend vorgeschrieben. Zudem können JSON-Formatierungsfehler die Canonical-Struktur (jq -S) der `state.json` beschädigen, weshalb alle JSON-Strings vor dem Schreiben streng validiert werden müssen. Schließlich besteht ein Synchronisationsrisiko zwischen der lokalen Umgebung (`C:\develop\.gemini\skills\`) und der Sandbox, was ein klares Deployment-Paket erfordert.
+## OFFENE PUNKTE
+Vor der Ausführung müssen folgende Aspekte final durch den Producer bestätigt werden:
+1. **Integration der Genie-Rollen:** Es wird angenommen, dass die `genie_team.json` als separate Datei verbleibt, da die `state.json` ausschließlich den flüchtigen WORM-Zustand des Systems abbilden soll.
+2. **Verzeichnisstruktur:** Es wird angenommen, dass das Ziel-Deployment eine flache Struktur im Projektordner (Manus Projekt-Wissensbasis) erfordert.
+3. **Formatierung:** Es wird vorausgesetzt, dass `jq -S` für die Erstellung der Canonical-JSON-Formatierung ausreicht und die `ledger.log` standardmäßig ISO-8601 Zeitstempel in Kombination mit dem SHA256-Hash der `state.json` verwendet.
+## AUSFÜHRUNGSPLAN
+Die folgenden Schritte definieren die exakte operative Kette (Pipeline). Jeder Schritt enthält den auszuführenden Shell-Befehl, die betroffene Datei, die geplante Änderung sowie die Validierungskriterien.
+| Schritt | Aktion | Exakter Shell-Befehl | Erwartung / Test |
+|---|---|---|---|
+| **1** | **Verzeichnisstruktur erstellen** | `mkdir -p /home/ubuntu/synergos_deployment/archive` | Verzeichnisse existieren. Test: `ls -d /home/ubuntu/synergos_deployment/archive` |
+| **2** | **Archiv-ZIP erstellen** | `zip -j /home/ubuntu/synergos_deployment/archive/v1_backup.zip /home/ubuntu/upload/*` | ZIP-Datei wird erstellt. Test: `unzip -l /home/ubuntu/synergos_deployment/archive/v1_backup.zip` |
+| **3** | **ANWEISUNG.md v2.0 erstellen** | `cp /home/ubuntu/anweisung_v2_draft.md /home/ubuntu/synergos_deployment/ANWEISUNG.md` | Neue Master-Anweisung liegt im Ordner. Test: `cat /home/ubuntu/synergos_deployment/ANWEISUNG.md \| grep "ZTIIS"` |
+| **4** | **state.json erstellen** | `echo '{"meta":{"erstellt_am":"2026-04-03T00:00:00Z","schema_version":"ZTIIS_v2","version":"2.0.0","worm_aktiv":true},"system_state":{"durchlauf_nummer":1,"letzte_aktion":"INIT_V2","modus":"ZTIIS_ACTIVE","pipeline_position":"STATE_0"},"ztiis_matrix":{"meta":{"status":"FULL","operator":"Alpha"},"makro":{"status":"SEQUENTIAL","operator":"Bravo"},"meso":{"status":"BASE_2","operator":"Charlie"},"mikro":{"status":"STEP","operator":"Delta"},"nano":{"status":"EXECUTION","operator":"Delta"}},"gates":{"imprensiva":{"status":"PASS"},"sfumato":{"status":"PASS"},"flusso":{"status":"PASS"}}}' \| jq -S . > /home/ubuntu/synergos_deployment/state.json` | Sauber formatiertes Canonical JSON. Test: `jq . /home/ubuntu/synergos_deployment/state.json` |
+| **5** | **ledger.log initialisieren** | `HASH=$(sha256sum /home/ubuntu/synergos_deployment/state.json \| awk '{print $1}') && echo "$(date --iso-8601=seconds) INIT_V2 $HASH" > /home/ubuntu/synergos_deployment/ledger.log` | Ein neuer Log-Eintrag mit Zeitstempel und Hash. Test: `cat /home/ubuntu/synergos_deployment/ledger.log` |
+| **6** | **SHA256-Verifikation** | `cd /home/ubuntu/synergos_deployment && sha256sum -c <(awk '{print $3 "  state.json"}' ledger.log)` | Output "state.json: OK". Test: Prüfung auf Exit-Code 0. |
+| **7** | **Deployment-Paket erstellen** | `cd /home/ubuntu/synergos_deployment && zip -r synergos_v2_deployment.zip ANWEISUNG.md state.json ledger.log` | ZIP-Datei ist bereit für den Transfer. Test: `unzip -l /home/ubuntu/synergos_deployment/synergos_v2_deployment.zip` |
+## ZIEL-DOKUMENTATION
+Das finale Deployment besteht aus drei Kern-Dateien, die im Root des Projekts angesiedelt werden:
+- **ANWEISUNG.md**: Das Master-Regelwerk.
+- **state.json**: Der dynamische Zustandsspeicher (WORM).
+- **ledger.log**: Der Audit-Trail (append-only).
+**Abnahmeschema (Kriterien):**
+1. Sind alle A-I Konzepte in der `ANWEISUNG.md` operativ definiert?
+2. Ist die `state.json` jq-S canonical und enthält ZTIIS-Felder?
+3. Stimmt der SHA256-Hash im `ledger.log` exakt mit der `state.json` überein?
+4. Wurden die Da-Vinci-Gates blockierend formuliert?
+---
+## ANWEISUNG.md v2.0 (VOLLSTÄNDIGER ENTWURF)
+```markdown
+# SYSTEM-ANWEISUNG: AUSFÜHRUNGSMODUS (ZTIIS-PIPELINE)
+## IDENTITÄT
+Du bist das Execution-Backbone des Cognitive Orchestra / Synergos. Dein Producer ist Roman. Kein Master-Export ohne sein Go.
+## OBERSTES AXIOM
+KEINE Operation (Generieren, Suchen, Erstellen, Bearbeiten, Löschen) darf ohne explizite Nutzerbestätigung ausgeführt werden. Der Producer hat immer das letzte Wort.
+## A) ZTIIS-SPEZIFIKATION (FRAKTALER PROZESS)
+ZTIIS IST der Prozess selbst, nicht ein Modell, das man anwendet. Es existiert auf jeder Ebene (Meta, Makro, Meso, Mikro, Nano).
+Jede Säule wird über alle Ebenen durch den Operator-Zyklus (A→B→C→D) geführt, weil eine Zustandsänderung nur stabil bleibt, wenn sie geprüft, integriert und durch Interferenz rückgekoppelt wird. Dies garantiert lokale Effizienz und globale Stabilität.
+| Element | Bedeutung | Funktion |
+|---|---|---|
+| **Z (Zustand)** | Der Ausgangspunkt. | Was ist? |
+| **T (Transformation)** | Die Veränderung. | Was passiert? |
+| **I (Information)** | Die Prüfung. | Was bedeutet es? |

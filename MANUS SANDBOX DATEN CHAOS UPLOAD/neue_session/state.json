@@ -1,0 +1,25 @@
+{
+  "lernkreis": {
+    "durchlauf_nummer": 0,
+    "naechste_auswertung_bei": 10,
+    "protokoll": []
+  },
+  "meta": {
+    "erstellt_am": "2026-03-29T00:00:00+02:00",
+    "schema_version": "UNIT_v1",
+    "version": "0.1.0",
+    "worm_aktiv": true
+  },
+  "pre_gate": {
+    "instruction_hash": null,
+    "letzte_pruefung": null,
+    "status": "NICHT_GEPRUEFT"
+  },
+  "system_state": {
+    "durchlauf_nummer": 0,
+    "letzte_aktion": "Session-Vorbereitung",
+    "modus": "INIT",
+    "pipeline_position": "PRE-GATE"
+  },
+  "units": []
+}

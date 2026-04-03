@@ -1,0 +1,3 @@
+jq: error: syntax error, unexpected INVALID_CHARACTER (Unix shell quoting issues?) at <top-level>, line 1:
+fromjson? | .events[]? | select(.kind=="message") | {role: .role, content: (.content[:300)}                                                                                         
+jq: 1 compile error

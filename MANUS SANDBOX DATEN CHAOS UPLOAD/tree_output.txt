@@ -1,0 +1,165 @@
+./
+├── neue_session/
+│   ├── ANWEISUNG.md
+│   ├── chatverlauf_zusammenfassung.md
+│   ├── genie_team.json
+│   ├── ledger.log
+│   ├── soul.md
+│   ├── state.json
+│   └── synergos_final.zip
+├── skills/
+│   ├── gws-best-practices/
+│   │   └── SKILL.md
+│   ├── internet-skill-finder/
+│   │   ├── references/
+│   │   │   └── skills_cache.json
+│   │   ├── scripts/
+│   │   │   └── fetch_skills.py
+│   │   └── SKILL.md
+│   ├── mapping-analysis-templates/
+│   │   ├── references/
+│   │   │   ├── analysis_prompts.md
+│   │   │   └── best_practices.md
+│   │   ├── scripts/
+│   │   │   ├── generate_schema.py
+│   │   │   └── validate_mapping.py
+│   │   ├── templates/
+│   │   │   ├── data_mapping_template.md
+│   │   │   ├── process_mapping_template.md
+│   │   │   └── system_mapping_template.md
+│   │   └── SKILL.md
+│   ├── prompt-calibration-triggering/
+│   │   └── SKILL.md
+│   ├── prompt-engineering-system/
+│   │   ├── references/
+│   │   │   ├── meta_kern_prompt.md
+│   │   │   ├── prompt_kalibrierungs_generator.md
+│   │   │   ├── prompt_pack_system.md
+│   │   │   └── system_integration.md
+│   │   ├── scripts/
+│   │   │   └── generate_prompt.py
+│   │   ├── templates/
+│   │   └── SKILL.md
+│   ├── skill-creator/
+│   │   ├── references/
+│   │   │   ├── output-patterns.md
+│   │   │   ├── progressive-disclosure-patterns.md
+│   │   │   └── workflows.md
+│   │   ├── scripts/
+│   │   │   ├── init_skill.py
+│   │   │   └── quick_validate.py
+│   │   ├── .DS_Store
+│   │   ├── LICENSE.txt
+│   │   └── SKILL.md
+│   ├── universal-template-generator/
+│   │   ├── references/
+│   │   │   ├── format_specs.md
+│   │   │   └── template_catalog.md
+│   │   ├── scripts/
+│   │   │   ├── fill_template.py
+│   │   │   └── validate_template.py
+│   │   ├── templates/
+│   │   └── SKILL.md
+│   ├── zti-delta-algorithm/
+│   │   ├── references/
+│   │   │   ├── abcd_model.yaml
+│   │   │   └── zti_metaphor.yaml
+│   │   ├── scripts/
+│   │   │   └── validate_delta.py
+│   │   ├── templates/
+│   │   │   └── delta_block_template.yaml
+│   │   └── SKILL.md
+│   └── .skill_versions.json
+├── synergos_final/
+│   ├── 01_kern/
+│   │   ├── p10_synergos_rte.md
+│   │   ├── p22_synergos_antiregression.md
+│   │   ├── p4_synergos_referenzprompt.md
+│   │   ├── p5_synergos_kernprompt.md
+│   │   └── p9_synergos_lehrmeister.md
+│   ├── 02_axiome_regeln/
+│   │   ├── p13_synergos_ephemeralitaet.md
+│   │   ├── p15_synergos_biasmanagement.md
+│   │   ├── p16_synergos_nachhaltigkeitsflux.md
+│   │   ├── p18_synergos_paralysetest.md
+│   │   ├── p21_synergos_matrix.md
+│   │   ├── p2_synergos_axiome.md
+│   │   ├── p3_synergos_strukturtransfer.md
+│   │   └── p8_synergos_pattern.md
+│   ├── 03_pipeline/
+│   │   ├── p6_synergos_pipeline.md
+│   │   └── p7_synergos_validierung.md
+│   ├── 04_protokolle/
+│   │   ├── p11_synergos_statevector.md
+│   │   ├── p12_synergos_befaehigung.md
+│   │   ├── p14_synergos_knowledgeindex.md
+│   │   └── p1_synergos_modellauskunft.md
+│   ├── 05_stresstests/
+│   │   ├── p17_synergos_overloadtest.md
+│   │   ├── p19_synergos_subjektivitaetstest.md
+│   │   ├── p20_synergos_antagonistisch.md
+│   │   └── p23_synergos_integrationstest.md
+│   ├── 06_referenz/
+│   │   ├── p10_synergos_rte.md
+│   │   ├── p11_synergos_statevector.md
+│   │   ├── p12_synergos_befaehigung.md
+│   │   ├── p13_synergos_ephemeralitaet.md
+│   │   ├── p14_synergos_knowledgeindex.md
+│   │   ├── p15_synergos_biasmanagement.md
+│   │   ├── p16_synergos_nachhaltigkeitsflux.md
+│   │   ├── p17_synergos_overloadtest.md
+│   │   ├── p18_synergos_paralysetest.md
+│   │   ├── p19_synergos_subjektivitaetstest.md
+│   │   ├── p1_synergos_modellauskunft.md
+│   │   ├── p20_synergos_antagonistisch.md
+│   │   ├── p21_synergos_matrix.md
+│   │   ├── p22_synergos_antiregression.md
+│   │   ├── p23_synergos_integrationstest.md
+│   │   ├── p2_synergos_axiome.md
+│   │   ├── p3_synergos_strukturtransfer.md
+│   │   ├── p4_synergos_referenzprompt.md
+│   │   ├── p5_synergos_kernprompt.md
+│   │   ├── p6_synergos_pipeline.md
+│   │   ├── p7_synergos_validierung.md
+│   │   ├── p8_synergos_pattern.md
+│   │   └── p9_synergos_lehrmeister.md
+│   ├── 07_state/
+│   │   └── state_vector.json
+│   ├── MASTER_INDEX.json
+│   ├── README.md
+│   └── soul.md
+├── upload/
+│   ├── photo_AQADdBFrG7PHOEp-.jpg
+│   └── photo_AQADdBtrG_0rAUp-.jpg
+├── ORCHESTRA.md
+├── action_orchestrator.py
+├── action_plan.json
+├── build_final.py
+├── channel_pong.py
+├── chatverlauf_zusammenfassung.md
+├── classified_inventory.json
+├── classify_score.py
+├── deep_analysis.json
+├── deep_analysis_script.py
+├── flow_analysis.json
+├── flow_detection.py
+├── gemini_sandbox_bridge_analyse.md
+├── h_channel_pong.json
+├── history_extract.txt
+├── interaktionsprotokoll.md
+├── inventory.json
+├── inventory_scan_v3.py
+├── inventory_v2.json
+├── inventory_v3.json
+├── manus_technische_infrastruktur.md
+├── neue_session_paket.zip
+├── prompt-orchester.md
+├── sandbox.txt
+├── sandbox_selbstanalyse.md
+├── soul.md
+├── synergos_final.zip
+├── tiefenanalyse_sandbox.md
+├── universales_operationsprotokoll.md
+└── user_messages.txt
+
+35 directories, 127 files

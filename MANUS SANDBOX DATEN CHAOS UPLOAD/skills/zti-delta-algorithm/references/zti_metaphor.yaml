@@ -1,0 +1,19 @@
+ZTI_METAPHOR:
+  Z:
+    name: "Zustand"
+    metaphor: "Das Gebäude"
+    description: "Der Ort, wo alles ist. Der aktuelle Kontext, die Regeln, die Identität."
+    question: "Was gilt jetzt?"
+    merksatz: "Z ist das Gebäude, das alles trägt."
+  T:
+    name: "Transformation"
+    metaphor: "Das Lager"
+    description: "Der Ort, wo Bewegung passiert. Die Ausführung, die Veränderung."
+    question: "Was wird bewegt?"
+    merksatz: "T ist das Lager: dort wird bewegt."
+  I:
+    name: "Information"
+    metaphor: "Das Büro"
+    description: "Der Ort, wo die Anweisung lebt. Die Planung, die Steuerung, die Daten."
+    question: "Was ist zu tun?"
+    merksatz: "I ist das Büro: dort wird gesagt, was zu tun ist."

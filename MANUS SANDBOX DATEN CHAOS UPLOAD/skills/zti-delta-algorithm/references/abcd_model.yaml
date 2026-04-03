@@ -1,0 +1,94 @@
+Funktionsrollen:
+  A:
+    name: "Alpha / Legislative"
+    zuordnung: "Z (Zustand / Nomen)"
+    aufgabe: "Definiert den Zustand und die Regeln"
+    metapher: "Das Gebäude und seine Bauordnung"
+  B:
+    name: "Bravo / Exekutive"
+    zuordnung: "T (Transformation / Verb)"
+    aufgabe: "Führt die Transformationen aus"
+    metapher: "Das Lager und die Arbeiter"
+  C:
+    name: "Charlie / Judikative"
+    zuordnung: "I (Information / Adjektiv)"
+    aufgabe: "Bewertet die Informationen und trifft Entscheidungen"
+    metapher: "Das Büro und die Qualitätskontrolle"
+  D:
+    name: "Delta / Übergeordneter Zustand"
+    zuordnung: "Der Träger aller Zyklen"
+    aufgabe: "Stellt die Konsistenz und Integrität des Systems sicher"
+    metapher: "Das Fundament unter dem Gebäude"
+
+ZTI_Kreislauf:
+  schritt_1:
+    rolle: "C (I)"
+    aktion: "Informationen sammeln und bewerten"
+  schritt_2:
+    rolle: "A (Z)"
+    aktion: "Zustand definieren und Regeln setzen"
+  schritt_3:
+    rolle: "B (T)"
+    aktion: "Transformationen ausführen"
+  schritt_4:
+    rolle: "D"
+    aktion: "Konsistenz und Integrität prüfen"
+  schritt_5:
+    aktion: "zurück zu C (I)"
+
+Gates_DEF_WORM:
+  DEF:
+    beschreibung: "Regeln und Invarianten definieren"
+    rolle: "A (Legislative)"
+  WORM:
+    beschreibung: "Write Once, Read Many - Änderungen protokollieren und nachweisbar machen"
+    rolle: "D (Übergeordneter Zustand)"
+  SHADOW:
+    beschreibung: "Risiken erkennen und bewerten"
+    rolle: "C (Judikative)"
+
+Prompt_Ledger_Struktur:
+  DELTA_BLOCK:
+    DELTA_SUMMARY:
+      typ: "string"
+      beschreibung: "1 Satz, der die Änderung zusammenfasst"
+      beispiel: "Neue Datei 'report.md' im Verzeichnis /docs erstellt"
+    DELTA_FIELDS:
+      typ: "array"
+      max_items: 5
+      beschreibung: "Konkrete Änderungen"
+      beispiel:
+        - "field: /docs/report.md, action: CREATE, value: <file_content>"
+        - "field: /state/last_modified, action: UPDATE, value: 2026-02-14T10:30:00Z"
+    INVARIANTS_CHECK:
+      typ: "string"
+      werte: ["PASS", "FAIL"]
+      beschreibung: "Ergebnis der Invarianten-Prüfung mit Angabe der geprüften Regel"
+      beispiel: "PASS - Regel: Dateiname muss .md Endung haben"
+    RISK_FLAG:
+      typ: "string"
+      werte: ["Y", "N"]
+      beschreibung: "Ist diese Änderung riskant?"
+    SHADOW_REQUIRED:
+      typ: "string"
+      werte: ["YES", "NO"]
+      beschreibung: "Ist eine zweite Validierung erforderlich?"
+    INTEGRATION:
+      typ: "string"
+      werte: ["APPLIED", "NOT_APPLIED"]
+      beschreibung: "Wurde die Änderung in den Hauptzustand integriert?"
+  
+  Ledger:
+    Hash:
+      typ: "string"
+      beschreibung: "Kryptographischer Hash von Δ + Entscheidung"
+      beispiel: "sha256:a3f8b9c2d1e4f5..."
+    Timestamp:
+      typ: "string"
+      format: "ISO8601"
+      beschreibung: "Zeitpunkt der Änderung"
+      beispiel: "2026-02-14T10:30:00Z"
+    Signatur:
+      typ: "string"
+      beschreibung: "Wer hat die Änderung durchgeführt (Agent-ID oder Benutzer-ID)"
+      beispiel: "agent:manus-001"

@@ -1,0 +1,50 @@
+# Terminal Full Output
+# Terminal: read_research
+# Command: cat /home/ubuntu/UInvKCdfpEekitgywHmJYt/manus_shared_environment_research.md
+# PID: 54915
+# Timestamp: 2026-04-03_09-46-15.930796
+# Original Length: 9675 characters
+# ----------------------------------------
+
+# Forschungsbericht: Technische Details der Manus AI Plattform
+**Autor:** Manus AI
+**Datum:** 3. April 2026
+## Einleitung
+Dieser Bericht fasst die Ergebnisse einer Recherche über die technischen Details der Manus AI Plattform zusammen. Der Fokus liegt auf fünf spezifischen Bereichen: der Funktionsweise der „My Computer“-Funktion, dem Datenaustausch zwischen mehreren Manus-Sitzungen/Aufgaben, der Synchronisation des „Skills“-Ordners, der Möglichkeit zur Schaffung einer gemeinsamen Umgebung für verschiedene Manus-Instanzen und der Beziehung zwischen Manus „Projekten“ und Aufgaben-Sandboxes.
+## 1. Funktionsweise der „My Computer“-Funktion in Manus Desktop
+Die „My Computer“-Funktion der Manus Desktop-Anwendung ermöglicht es dem Manus AI-Agenten, direkt mit lokalen Dateien, Tools und Anwendungen auf dem Computer des Benutzers zu interagieren [1]. Dies geschieht, indem Manus Befehlszeilenanweisungen (CLI) im Terminal des Computers ausführt [1]. Der Agent kann lokale Dateien lesen, analysieren und bearbeiten sowie lokale Anwendungen starten und steuern [1].
+Ein entscheidender Aspekt ist die **Benutzerkontrolle**: Jede Terminal-Anweisung erfordert die explizite Genehmigung des Benutzers vor der Ausführung. Benutzer können wählen, ob sie „Immer zulassen“ für vertrauenswürdige Aufgaben oder „Einmal zulassen“ für eine individuelle Überprüfung jeder Operation wählen [1].
+Obwohl die Recherche die Interaktion über CLI-Befehle detailliert beschreibt, wurde in den durchsuchten Dokumenten und Blogbeiträgen keine spezifische Erwähnung eines **FUSE-Mounts** gefunden, der lokale Ordner direkt mit der Sandbox verbindet. Die Interaktion scheint primär über die Ausführung von Befehlen auf dem lokalen System zu erfolgen, die dann auf die lokalen Dateien zugreifen [1]. Die Manus Desktop-App fungiert hierbei als Brücke, die die Befehle des Cloud-basierten Agenten an das lokale Terminal weiterleitet [1].
+## 2. Datenaustausch zwischen mehreren Manus-Sitzungen/Aufgaben
+Manus-Aufgaben werden in **isolierten Cloud-basierten virtuellen Maschinen (Sandboxes)** ausgeführt [2]. Jede Sandbox läuft in ihrer eigenen Umgebung und beeinflusst andere Aufgaben nicht, was parallele Ausführung ermöglicht [2]. Dies bedeutet, dass es standardmäßig kein geteiltes Dateisystem zwischen verschiedenen Aufgaben-Sandboxes gibt. Die Sandbox speichert Dateien, die während der Aufgabenausführung benötigt werden, einschließlich vom Benutzer hochgeladener Anhänge, von Manus erstellter Artefakte und Konfigurationen [2].
+Die Persistenz von Dateien in der Sandbox ist an den Lebenszyklus der Sandbox gebunden: Eine Sandbox wird bei Inaktivität in den Ruhezustand versetzt und kann nach einer bestimmten Zeit (7 Tage für kostenlose Benutzer, 21 Tage für Manus Pro) recycelt werden [2]. Beim Recycling werden wichtige Dateien wie Artefakte, hochgeladene Anhänge und Projektdateien (z.B. Slides/WebDev) in eine neue Sandbox wiederhergestellt, während Zwischencode und temporäre Dateien nicht wiederhergestellt werden [2].
+**Projekte** bieten einen Mechanismus für einen geteilten Kontext. Ein Projekt dient als dedizierter Arbeitsbereich, in dem eine **Master-Anweisung** und eine **Wissensbasis** aus Dateien und Dokumenten definiert werden können [3]. Jede neue Aufgabe, die innerhalb dieses Projekts erstellt wird, erbt automatisch diese Konfigurationen und die Wissensbasis [3]. Dies ermöglicht eine Form des Datenaustauschs und der Kontextpersistenz über Aufgaben hinweg, die zu einem Projekt gehören, ohne dass die Sandboxes direkt ein Dateisystem teilen [3].
+## 3. Synchronisation des „Skills“-Ordners zwischen lokalem Computer und Manus Sandbox
+Manus Skills sind modulare, dateisystembasierte Ressourcen, die eine spezifische Fähigkeit oder einen Workflow kapseln [4]. Sie können dem Manus-Agenten Kontext, prozedurales Wissen und Tools zur Verfügung stellen [4].
+Skills können auf verschiedene Weisen hinzugefügt werden [4]:
+*   **Build with Manus:** Erstellung eines neuen Skills aus einer erfolgreichen Interaktion.
+*   **Upload a skill:** Hochladen einer .zip-Datei, .skill-Datei oder eines Ordners vom lokalen Computer in den Manus-Arbeitsbereich.
+*   **Add from official:** Hinzufügen aus einer kuratierten Bibliothek von Manus-Skills.
+*   **Import from GitHub:** Importieren eines Skills direkt aus einem GitHub-Repository.
+Die Synchronisation zwischen einem lokalen „Skills“-Ordner und der Manus Sandbox erfolgt nicht automatisch im Sinne eines bidirektionalen Dateisystem-Syncs. Stattdessen werden Skills entweder in die Manus-Umgebung hochgeladen oder von dort importiert [4]. Einmal in Manus integriert, sind sie dateibasiert und können bearbeitet werden, indem die `SKILL.md`-Datei und zugehörige Skripte angepasst werden [4]. Dies deutet darauf hin, dass die Skills nach dem Hinzufügen Teil des Manus-Dateisystems werden und nicht direkt mit einem lokalen Ordner synchronisiert bleiben.
+## 4. Schaffung einer gemeinsamen Umgebung für mehrere Manus-Instanzen
+Die primäre Methode zur Schaffung einer gemeinsamen Umgebung, in der mehrere Manus-Instanzen (z.B. über Telegram Bot, Desktop App) mit denselben Dateien interagieren können, sind **Manus Projekte** [3]. Wie unter Punkt 2 beschrieben, bieten Projekte eine gemeinsame Wissensbasis und Master-Anweisungen, die von allen Aufgaben innerhalb dieses Projekts geerbt werden [3].
+Manus Agents in Telegram bieten die volle Funktionalität des Manus Action Engines, einschließlich der Fähigkeit, Sprachnachrichten, Fotos und Dokumente direkt im Chat zu senden und komplexe, mehrstufige Aufgaben auszuführen [5]. Wenn diese Telegram-Aufgaben Teil eines Projekts sind, würden sie auf die im Projekt definierte Wissensbasis zugreifen [3].
+Die „My Computer“-Funktion ermöglicht es dem Manus Desktop-Agenten, auf lokale Dateien zuzugreifen [1]. Wenn diese lokalen Dateien in einem Projekt als Teil der Wissensbasis hochgeladen oder referenziert werden, könnten sie indirekt von anderen Manus-Instanzen (z.B. Telegram) genutzt werden, die auf dasselbe Projekt zugreifen. Es gibt jedoch keine direkte Aussage, dass eine Telegram-Instanz direkt auf die lokalen Dateien zugreifen kann, die über „My Computer“ verbunden sind. Der Zugriff erfolgt über die Manus-Plattform, die die Dateien des Projekts bereitstellt.
+**Projekt-Skills** erweitern dies, indem sie eine dedizierte, kuratierte Bibliothek von Skills für jedes Projekt ermöglichen [6]. Dies schafft eine kontrollierte Umgebung, in der nur die explizit zum Projekt hinzugefügten Skills für Aufgaben innerhalb dieses Projekts verfügbar sind, was Konsistenz gewährleistet [6].
+## 5. Beziehung zwischen Manus „Projekten“ und Aufgaben-Sandboxes
+Manus „Projekte“ sind persistente, wiederverwendbare Workflows, die als dedizierte Arbeitsbereiche dienen [3]. Sie definieren eine **Master-Anweisung** und eine **Wissensbasis** aus Dateien und Dokumenten [3].
+Die Beziehung zu Aufgaben-Sandboxes ist wie folgt:
+*   **Kontextvererbung:** Jede neue Aufgabe, die innerhalb eines Projekts erstellt wird, erbt automatisch die Konfigurationen (Master-Anweisung, Wissensbasis) des Projekts [3]. Dies eliminiert die Notwendigkeit einer wiederholten Einrichtung [3].
+*   **Sandbox-Isolation:** Trotz der gemeinsamen Projektkonfiguration läuft jede Aufgabe weiterhin in ihrer eigenen, isolierten Sandbox [2]. Die Dateien und der Kontext des Projekts werden in die Sandbox der jeweiligen Aufgabe geladen, aber die Sandboxes selbst bleiben voneinander getrennt [2].
+*   **Konfigurations-Updates:** Wenn die Konfiguration eines Projekts aktualisiert wird, wirken sich Anweisungs-Updates (System-Prompts, benutzerdefinierte Anweisungen) auf die nächste Nachricht in der aktuellen Aufgabe aus. Datei-Updates (Wissensbasis-Dateien, Projektressourcen) treten nur in neuen Aufgaben in Kraft, die nach dem Update erstellt wurden. Zuvor erstellte Aufgaben bleiben unberührt [3].
+*   **Kollaboration:** Projekte ermöglichen die Zusammenarbeit auf Projektebene, wobei Teams eine gemeinsame Grundlage von Anweisungen, Wissen und Tools teilen [3]. Wenn ein Kollege zu einem Projekt eingeladen wird, erhält er Zugriff auf die gemeinsame Master-Anweisung und Wissensbasis. Er kann jedoch nur die Aufgaben sehen, die er selbst innerhalb dieses Projekts erstellt hat [3]. Um eine bestimmte Aufgabe zu teilen, muss diese explizit separat eingeladen werden [3].
+Zusammenfassend lässt sich sagen, dass Projekte einen übergeordneten Kontext und eine gemeinsame Wissensbasis für Aufgaben bereitstellen, während die eigentliche Ausführung und die Dateisysteme der Aufgaben in isolierten Sandboxes stattfinden. Die Projektstruktur sorgt für Konsistenz und Wiederverwendbarkeit von Workflows und Ressourcen über mehrere Aufgaben hinweg.
+## Referenzen
+[1] [Introducing My Computer: When Manus Meets Your Desktop](https://manus.im/blog/manus-my-computer-desktop) - Manus Blog
+[2] [Understanding Manus sandbox - your cloud computer](https://manus.im/blog/manus-sandbox) - Manus Blog
+[3] [Projects - Manus Documentation](https://manus.im/docs/features/projects) - Manus Documentation
+[4] [Manus Skills - Manus Documentation](https://manus.im/docs/features/skills) - Manus Documentation
+[5] [How do I set up and use Manus Agents in Telegram?](https://help.manus.im/en/articles/14033617-how-do-i-set-up-and-use-manus-agents-in-telegram) - Manus Help Center
+[6] [Introducing Project Skills: Turn Your Team’s Expertise into a Reusable Asset](https://manus.im/blog/manus-project-skills) - Manus Blog
+[7] [In-depth technical investigation into the Manus AI agent, focusing on its architecture, tool orchestration, and autonomous capabilities. · GitHub](https://gist.github.com/renschni/4fbc70b31bad8dd57f3370239dccd58f) - GitHub Gist

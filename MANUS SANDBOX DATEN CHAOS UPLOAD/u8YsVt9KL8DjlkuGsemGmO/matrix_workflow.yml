@@ -1,0 +1,244 @@
+# =============================================================================
+# DATEI: matrix_workflow.yml
+# ZWECK: GitHub Actions Matrix-Workflow für zwei Self-Hosted Runner
+#        - Runner 1: "manus-sandbox"  (Linux/X64)   – ONLINE
+#        - Runner 2: "DESKTOP-I206LU1" (Windows/X64) – OFFLINE (wird gestartet)
+# REPO:  LYKOS68/roman-hild4
+# ABLAGE: .github/workflows/matrix_workflow.yml
+# =============================================================================
+
+name: Matrix Validierung (Linux + Windows)
+
+# ---------------------------------------------------------------------------
+# TRIGGER: Wann wird dieser Workflow ausgelöst?
+# ---------------------------------------------------------------------------
+on:
+  # Bei jedem Push auf beliebige Branch
+  push:
+    branches:
+      - "**"
+
+  # Manuell über GitHub UI oder API auslösbar
+  workflow_dispatch:
+    inputs:
+      debug_mode:
+        description: "Debug-Modus aktivieren (true/false)"
+        required: false
+        default: "false"
+        type: string
+
+  # Über externen HTTP-POST auslösbar (z.B. Webhook → repository_dispatch)
+  repository_dispatch:
+    types:
+      - run-validation
+      - deploy-trigger
+      - manual-trigger
+
+# ---------------------------------------------------------------------------
+# GLOBALE UMGEBUNGSVARIABLEN (für alle Jobs verfügbar)
+# ---------------------------------------------------------------------------
+env:
+  REPO_OWNER: "LYKOS68"
+  REPO_NAME:  "roman-hild4"
+  STATE_FILE: "state.json"
+
+# ---------------------------------------------------------------------------
+# JOBS
+# ---------------------------------------------------------------------------
+jobs:
+
+  # -------------------------------------------------------------------------
+  # JOB: validate
+  # Läuft auf BEIDEN Runnern via Matrix-Strategie
+  # -------------------------------------------------------------------------
+  validate:
+    name: "Validierung [${{ matrix.os }}]"
+
+    # Matrix-Strategie: Beide Runner werden parallel gestartet
+    strategy:
+      # Bei Fehler auf einem Runner den anderen NICHT abbrechen
+      fail-fast: false
+      matrix:
+        include:
+          # --- Linux Runner (manus-sandbox) ---
+          - os: linux
+            runs_on: [self-hosted, Linux, X64, manus, sandbox]
+            shell: bash
+            path_sep: "/"
+            state_check_cmd: "cat"
+            hash_cmd: "sha256sum"
+
+          # --- Windows Runner (DESKTOP-I206LU1) ---
+          - os: windows
+            runs_on: [self-hosted, X64, Windows]
+            shell: powershell
+            path_sep: "\\"
+            state_check_cmd: "Get-Content"
+            hash_cmd: "Get-FileHash"
+
+    # Welcher Runner soll diesen Job ausführen (aus Matrix)
+    runs-on: ${{ matrix.runs_on }}
+
+    # Timeout: Job wird nach 30 Minuten abgebrochen
+    timeout-minutes: 30
+
+    # Schritte des Jobs
+    steps:
+
+      # -----------------------------------------------------------------------
+      # SCHRITT 1 (GEMEINSAM): Repository auschecken
+      # -----------------------------------------------------------------------
+      - name: "Checkout – Repository auschecken"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1   # Nur letzten Commit laden (schneller)
+
+      # -----------------------------------------------------------------------
+      # SCHRITT 2 (GEMEINSAM): Laufzeitinformationen ausgeben
+      # -----------------------------------------------------------------------
+      - name: "Info – Laufzeitumgebung anzeigen"
+        shell: ${{ matrix.shell }}
+        run: |
+          echo "============================================"
+          echo "  RUNNER-INFORMATIONEN"
+          echo "============================================"
+          echo "  Plattform : ${{ matrix.os }}"
+          echo "  Runner-OS : ${{ runner.os }}"
+          echo "  Runner-Name: ${{ runner.name }}"
+          echo "  Workspace  : ${{ github.workspace }}"
+          echo "  Ref        : ${{ github.ref }}"
+          echo "  SHA        : ${{ github.sha }}"
+          echo "  Trigger    : ${{ github.event_name }}"
+          echo "============================================"
+
+      # -----------------------------------------------------------------------
+      # SCHRITT 3 (LINUX): state.json prüfen und Hash berechnen
+      # -----------------------------------------------------------------------
+      - name: "Linux – state.json prüfen und Hash berechnen"
+        if: matrix.os == 'linux'
+        shell: bash
+        run: |
+          echo "--- [LINUX] state.json Validierung ---"
+
+          # Prüfen ob state.json existiert
+          if [ -f "${{ env.STATE_FILE }}" ]; then
+            echo "[OK] ${{ env.STATE_FILE }} gefunden."
+
+            # Inhalt ausgeben (erste 50 Zeilen)
+            echo "--- Inhalt (max. 50 Zeilen) ---"
+            head -n 50 "${{ env.STATE_FILE }}"
+
+            # SHA-256 Hash berechnen
+            echo "--- SHA-256 Hash ---"
+            sha256sum "${{ env.STATE_FILE }}"
+
+            # JSON-Syntax prüfen (falls python3 verfügbar)
+            if command -v python3 &>/dev/null; then
+              echo "--- JSON-Syntax-Prüfung ---"
+              python3 -m json.tool "${{ env.STATE_FILE }}" > /dev/null \
+                && echo "[OK] JSON-Syntax gültig." \
+                || echo "[WARNUNG] JSON-Syntax ungültig!"
+            fi
+          else
+            echo "[INFO] ${{ env.STATE_FILE }} nicht gefunden – wird übersprungen."
+          fi
+
+          # Allgemeine Repo-Struktur ausgeben
+          echo "--- Repository-Struktur (Tiefe 2) ---"
+          find . -maxdepth 2 -not -path './.git/*' | sort
+
+      # -----------------------------------------------------------------------
+      # SCHRITT 4 (WINDOWS): state.json prüfen und Hash berechnen
+      # -----------------------------------------------------------------------
+      - name: "Windows – state.json prüfen und Hash berechnen"
+        if: matrix.os == 'windows'
+        shell: powershell
+        run: |
+          Write-Host "--- [WINDOWS] state.json Validierung ---"
+
+          $stateFile = "${{ env.STATE_FILE }}"
+
+          # Prüfen ob state.json existiert
+          if (Test-Path $stateFile) {
+            Write-Host "[OK] $stateFile gefunden."
+
+            # Inhalt ausgeben (erste 50 Zeilen)
+            Write-Host "--- Inhalt (max. 50 Zeilen) ---"
+            Get-Content $stateFile | Select-Object -First 50
+
+            # SHA-256 Hash berechnen
+            Write-Host "--- SHA-256 Hash ---"
+            $hash = Get-FileHash -Path $stateFile -Algorithm SHA256
+            Write-Host "SHA256: $($hash.Hash)  $stateFile"
+
+            # JSON-Syntax prüfen
+            Write-Host "--- JSON-Syntax-Prüfung ---"
+            try {
+              $null = Get-Content $stateFile -Raw | ConvertFrom-Json
+              Write-Host "[OK] JSON-Syntax gültig."
+            } catch {
+              Write-Host "[WARNUNG] JSON-Syntax ungültig: $_"
+            }
+          } else {
+            Write-Host "[INFO] $stateFile nicht gefunden – wird übersprungen."
+          }
+
+          # Allgemeine Repo-Struktur ausgeben
+          Write-Host "--- Repository-Struktur (Tiefe 2) ---"
+          Get-ChildItem -Recurse -Depth 2 | Where-Object { $_.FullName -notlike '*\.git\*' } | Select-Object FullName
+
+      # -----------------------------------------------------------------------
+      # SCHRITT 5 (GEMEINSAM): Ergebnis loggen
+      # -----------------------------------------------------------------------
+      - name: "Log – Validierungsergebnis zusammenfassen"
+        shell: ${{ matrix.shell }}
+        run: |
+          echo "============================================"
+          echo "  VALIDIERUNG ABGESCHLOSSEN"
+          echo "  Plattform : ${{ matrix.os }}"
+          echo "  Status    : ERFOLGREICH"
+          echo "  Zeitstempel: $(date 2>/dev/null || Get-Date)"
+          echo "============================================"
+
+      # -----------------------------------------------------------------------
+      # SCHRITT 6 (GEMEINSAM): Artefakt hochladen (Workflow-Log als Datei)
+      # -----------------------------------------------------------------------
+      - name: "Artefakt – Lauf-Zusammenfassung speichern"
+        if: always()   # Auch bei Fehler ausführen
+        shell: ${{ matrix.shell }}
+        run: |
+          # Zusammenfassungsdatei erstellen
+          echo "Plattform: ${{ matrix.os }}" > validation_result_${{ matrix.os }}.txt
+          echo "Runner: ${{ runner.name }}" >> validation_result_${{ matrix.os }}.txt
+          echo "SHA: ${{ github.sha }}" >> validation_result_${{ matrix.os }}.txt
+          echo "Zeitstempel: $(date 2>/dev/null || Get-Date)" >> validation_result_${{ matrix.os }}.txt
+
+      - name: "Artefakt – Hochladen"
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: "validation-result-${{ matrix.os }}"
+          path: "validation_result_${{ matrix.os }}.txt"
+          retention-days: 7
+
+  # -------------------------------------------------------------------------
+  # JOB: summary (läuft nach beiden Matrix-Jobs)
+  # -------------------------------------------------------------------------
+  summary:
+    name: "Zusammenfassung"
+    needs: validate
+    # Auf dem Linux-Runner ausführen (immer online)
+    runs-on: [self-hosted, Linux, X64, manus, sandbox]
+    if: always()   # Auch wenn validate-Jobs fehlschlagen
+
+    steps:
+      - name: "Zusammenfassung – Matrix-Ergebnisse ausgeben"
+        shell: bash
+        run: |
+          echo "============================================"
+          echo "  MATRIX-WORKFLOW ABGESCHLOSSEN"
+          echo "  Repo   : ${{ env.REPO_OWNER }}/${{ env.REPO_NAME }}"
+          echo "  Trigger: ${{ github.event_name }}"
+          echo "  SHA    : ${{ github.sha }}"
+          echo "  Status Linux  : ${{ needs.validate.result }}"
+          echo "============================================"
