@@ -1,0 +1,51 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    // === GIT INTEGRATION ===
+    "git.autofetch": true,
+    "git.autofetchPeriod": 30,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.pullBeforeCheckout": true,
+
+    // === AUTO-SAVE ===
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    // === COPILOT AGENT / BROWSER ===
+    "workbench.browser.enableChatTools": true,
+    "chat.agent.autoAcceptDelay": 5,
+
+    // === EDITOR ===
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+
+    // === DATEIEN ===
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    },
+
+    // === TERMINAL ===
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": {
+    "recommendations": [
+      "github.copilot",
+      "github.copilot-chat",
+      "eamodio.gitlens",
+      "google.gemini-code-assist",
+      "ms-vscode.vscode-json",
+      "redhat.vscode-yaml",
+      "davidanson.vscode-markdownlint",
+      "github.vscode-github-actions"
+    ]
+  }
+}
