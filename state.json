@@ -1,0 +1,47 @@
+{
+  "gates": {
+    "flusso": {
+      "status": "PASS"
+    },
+    "imprensiva": {
+      "status": "PASS"
+    },
+    "sfumato": {
+      "status": "PASS"
+    }
+  },
+  "meta": {
+    "erstellt_am": "2026-04-06T14:26:45Z",
+    "schema_version": "ZTIIS_v2",
+    "version": "2.0.0",
+    "worm_aktiv": true
+  },
+  "system_state": {
+    "durchlauf_nummer": 1,
+    "letzte_aktion": "INIT_V2",
+    "modus": "ZTIIS_ACTIVE",
+    "pipeline_position": "STATE_0"
+  },
+  "ztiis_matrix": {
+    "makro": {
+      "operator": "Bravo",
+      "status": "SEQUENTIAL"
+    },
+    "meta": {
+      "operator": "Alpha",
+      "status": "FULL"
+    },
+    "meso": {
+      "operator": "Charlie",
+      "status": "BASE_2"
+    },
+    "mikro": {
+      "operator": "Delta",
+      "status": "STEP"
+    },
+    "nano": {
+      "operator": "Delta",
+      "status": "EXECUTION"
+    }
+  }
+}
