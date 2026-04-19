@@ -10,36 +10,77 @@
       "status": "PASS"
     }
   },
+  "kern": {
+    "adresse": "KERN/SELD-0.md",
+    "beschreibung": "Kreuzung aller vier Achsen S×E×L×D",
+    "status": "AKTIV",
+    "wachstumsrichtung": "innen_nach_aussen"
+  },
   "meta": {
     "erstellt_am": "2026-04-06T14:26:45Z",
-    "schema_version": "ZTIIS_v2",
-    "version": "2.0.0",
+    "schema_version": "SELD-0_v1",
+    "seld_0_aktiviert_am": "2026-04-19T13:28:31Z",
+    "version": "3.0.0",
     "worm_aktiv": true
   },
+  "seld_0": {
+    "achsen": {
+      "D": {
+        "beschreibung": "3+1-Validator — Gate zwischen jedem ABC-Schritt",
+        "position": "meta_ebene",
+        "typ": "operationsstruktur",
+        "werte": ["PRE", "A->B", "B->C", "C->END", "POST"]
+      },
+      "E": {
+        "beschreibung": "Zoom-Tiefe",
+        "typ": "ebenenstruktur",
+        "werte": ["META", "MAKRO", "MESO", "MIKRO"]
+      },
+      "L": {
+        "beschreibung": "Operator-Schritt",
+        "typ": "layer",
+        "werte": ["A", "B", "C", "D"]
+      },
+      "S": {
+        "beschreibung": "Prozess-Identität",
+        "typ": "saeule",
+        "werte": ["Z", "T", "I", "S"]
+      }
+    },
+    "d_pipeline": "A->[D]->B->[D]->C->[D]->Abschluss[D]",
+    "formel": "SELD-0 = S × E × L × D",
+    "validator_referenz": "D_VALIDATOR.md"
+  },
   "system_state": {
-    "durchlauf_nummer": 1,
-    "letzte_aktion": "INIT_V2",
-    "modus": "ZTIIS_ACTIVE",
-    "pipeline_position": "STATE_0"
+    "durchlauf_nummer": 2,
+    "letzte_aktion": "SELD_0_INIT",
+    "modus": "SELD_0_ACTIVE",
+    "pipeline_position": "STATE_0",
+    "seld_adresse": null
   },
   "ztiis_matrix": {
     "makro": {
+      "d_gate": "AKTIV",
       "operator": "Bravo",
       "status": "SEQUENTIAL"
     },
     "meta": {
+      "d_gate": "AKTIV",
       "operator": "Alpha",
       "status": "FULL"
     },
     "meso": {
+      "d_gate": "AKTIV",
       "operator": "Charlie",
       "status": "BASE_2"
     },
     "mikro": {
+      "d_gate": "AKTIV",
       "operator": "Delta",
       "status": "STEP"
     },
     "nano": {
+      "d_gate": "AKTIV",
       "operator": "Delta",
       "status": "EXECUTION"
     }
