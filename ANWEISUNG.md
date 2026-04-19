@@ -87,6 +87,41 @@ Binäre Entscheidungen, keine Graustufen. Der Ablauf ist:
 - **GATE:** Validierung (Da-Vinci-Gates).
 - **EXECUTE:** Ausführung (nur bei Pass).
 
+## G2) ABCD-PIPELINE MIT D-ZWISCHENLOCKS (SELD-0)
+
+D ist nicht der vierte Schritt — D ist der Meta-Validator zwischen jedem Schritt.
+
+`A → [D] → B → [D] → C → [D] → Abschluss[D]`
+
+| Übergang | D-Gate-Check | Fail-Reaktion |
+|---|---|---|
+| PRE-CYCLE | Darf der Zyklus starten? | STOP — kein A |
+| A → B | Wurde A korrekt abgeschlossen? | Zurück zu A |
+| B → C | Ist die Transformation stabil? | Zurück zu B |
+| C → Abschluss | Ist die Information integriert? | Zurück zu C |
+| POST-CYCLE | Rückkopplung vollständig? | Zyklus wiederholen |
+
+Referenz: `/D_VALIDATOR.md`
+
+## G3) 0-KERN (SELD-0)
+
+```
+SELD-0 = S × E × L × D
+
+S = Säule   (Z · T · I · S)
+E = Ebene   (META · MAKRO · MESO · MIKRO)
+L = Layer   (A · B · C · D)
+D = Delta   (3+1-Validator)
+```
+
+Der Kern ist die Kreuzung aller vier Achsen. Das System wächst von innen nach außen.
+
+- Operationsstruktur (3+1 / D) ≠ Ebenenstruktur (E.ME.NA)
+- SELD-Adresse jedes Schritts: `S.E.L.D` (z. B. `Z.META.A→B.D`)
+- Jede Mutation muss die SELD-Adresse tragen
+
+Referenz: `/KERN/SELD-0.md` | `/PROJECT_CHARTA.md`
+
 ## H) UR-WÖRTER (ATOMARE PRIMITIVE)
 
 Die fundamentalen Bausteine jeder Operation:
